@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="858" viewBox="120 142 1360 858" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Service operations dashboard concept</title>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="28" flood-color="#111213" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="1600" height="1000" fill="#f2f2ee"/>
+
+  <!-- Window -->
+  <rect x="120" y="90" width="1360" height="940" rx="16" fill="#ffffff" stroke="#e4e4de" filter="url(#shadow)"/>
+  <path d="M120.5 142 V106 a15.5 15.5 0 0 1 15.5 -15.5 H1464 a15.5 15.5 0 0 1 15.5 15.5 V142 Z" fill="#fafaf8"/>
+  <line x1="120" y1="142" x2="1480" y2="142" stroke="#e4e4de"/>
+  <circle cx="148" cy="116" r="6" fill="#e4e4de"/>
+  <circle cx="168" cy="116" r="6" fill="#e4e4de"/>
+  <circle cx="188" cy="116" r="6" fill="#e4e4de"/>
+  <rect x="620" y="102" width="360" height="28" rx="14" fill="#f2f2ee"/>
+  <path d="M742 111.5 a3.5 3.5 0 0 1 7 0 V114 M739.5 114 h12 v7.5 h-12 Z" fill="none" stroke="#686c73" stroke-width="1.4" stroke-linejoin="round"/>
+  <text x="760" y="121" font-size="13" fill="#686c73">app.example/dispatch</text>
+
+  <!-- Sidebar -->
+  <rect x="120.5" y="142.5" width="220" height="887" fill="#fafaf8"/>
+  <line x1="340.5" y1="142" x2="340.5" y2="1000" stroke="#e4e4de"/>
+  <rect x="148" y="170" width="28" height="28" rx="8" fill="#2b45c4"/>
+  <path d="M155 186 L162 179 L169 186 M158 186 V191 H166 V186" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="188" y="190" font-size="15" font-weight="650" fill="#111213">Dispatch</text>
+
+  <text x="148" y="238" font-size="11" font-weight="600" fill="#686c73" letter-spacing="0.8">WORKSPACE</text>
+  <!-- active -->
+  <rect x="136" y="252" width="188" height="36" rx="8" fill="#2b45c4" fill-opacity="0.08"/>
+  <rect x="152" y="262" width="16" height="16" rx="4" fill="none" stroke="#2b45c4" stroke-width="1.6"/>
+  <circle cx="160" cy="270" r="2.5" fill="#2b45c4"/>
+  <text x="180" y="275" font-size="14" font-weight="600" fill="#2b45c4">Today</text>
+  <g fill="none" stroke="#686c73" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- schedule -->
+    <rect x="152" y="302" width="16" height="16" rx="3"/>
+    <line x1="152" y1="308" x2="168" y2="308"/>
+    <!-- jobs -->
+    <rect x="152" y="344" width="16" height="13" rx="3"/>
+    <path d="M157 344 V341 H163 V344"/>
+    <!-- crews -->
+    <circle cx="157" cy="385" r="3"/>
+    <circle cx="164" cy="386" r="2.5"/>
+    <path d="M151.5 397 c0 -4 2.5 -6 5.5 -6 s5.5 2 5.5 6 M162 391.5 c3 0 5.5 1.5 5.5 5.5"/>
+    <!-- customers -->
+    <circle cx="160" cy="425" r="3.5"/>
+    <path d="M153 437 c0 -4.5 3 -7 7 -7 s7 2.5 7 7"/>
+    <!-- reports -->
+    <line x1="154" y1="477" x2="154" y2="470"/>
+    <line x1="160" y1="477" x2="160" y2="464"/>
+    <line x1="166" y1="477" x2="166" y2="467"/>
+  </g>
+  <g font-size="14" fill="#4f535a">
+    <text x="180" y="315">Schedule</text>
+    <text x="180" y="355">Jobs</text>
+    <text x="180" y="395">Crews</text>
+    <text x="180" y="435">Customers</text>
+    <text x="180" y="475">Reports</text>
+  </g>
+  <line x1="148" y1="924" x2="316" y2="924" stroke="#e4e4de"/>
+  <circle cx="162" cy="958" r="14" fill="#e4e4de"/>
+  <rect x="186" y="948" width="84" height="8" rx="4" fill="#e4e4de"/>
+  <rect x="186" y="962" width="56" height="7" rx="3.5" fill="#f2f2ee"/>
+
+  <!-- Header -->
+  <text x="380" y="192" font-size="26" font-weight="650" fill="#111213" letter-spacing="-0.5">Today</text>
+  <text x="464" y="191" font-size="15" fill="#686c73">Tuesday</text>
+  <rect x="1080.5" y="164.5" width="279" height="35" rx="17.5" fill="#fafaf8" stroke="#e4e4de"/>
+  <circle cx="1102" cy="181" r="5.5" fill="none" stroke="#686c73" stroke-width="1.5"/>
+  <line x1="1106" y1="185" x2="1110" y2="189" stroke="#686c73" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="1120" y="187" font-size="13.5" fill="#686c73">Search jobs, customers</text>
+  <circle cx="1406" cy="182" r="18" fill="#e4e4de"/>
+  <text x="1406" y="186.5" font-size="12" font-weight="600" fill="#4f535a" text-anchor="middle">RM</text>
+  <line x1="341" y1="222" x2="1480" y2="222" stroke="#e4e4de"/>
+
+  <!-- KPI cards -->
+  <g>
+    <rect x="380.5" y="254.5" width="249" height="111" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+    <circle cx="408" cy="286" r="4" fill="#c9ccd1"/>
+    <text x="420" y="291" font-size="13" fill="#686c73">Scheduled</text>
+    <text x="404" y="340" font-size="34" font-weight="650" fill="#111213" letter-spacing="-0.6">18</text>
+    <text x="606" y="339" font-size="12" fill="#686c73" text-anchor="end">jobs today</text>
+
+    <rect x="650.5" y="254.5" width="249" height="111" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+    <circle cx="678" cy="286" r="4" fill="#2b45c4"/>
+    <text x="690" y="291" font-size="13" fill="#686c73">In progress</text>
+    <text x="674" y="340" font-size="34" font-weight="650" fill="#111213" letter-spacing="-0.6">6</text>
+    <rect x="776" y="330" width="100" height="6" rx="3" fill="#f2f2ee"/>
+    <rect x="776" y="330" width="34" height="6" rx="3" fill="#2b45c4"/>
+
+    <rect x="920.5" y="254.5" width="249" height="111" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+    <circle cx="948" cy="286" r="4" fill="#2b45c4" fill-opacity="0.4"/>
+    <text x="960" y="291" font-size="13" fill="#686c73">Completed</text>
+    <text x="944" y="340" font-size="34" font-weight="650" fill="#111213" letter-spacing="-0.6">9</text>
+    <rect x="1046" y="330" width="100" height="6" rx="3" fill="#f2f2ee"/>
+    <rect x="1046" y="330" width="50" height="6" rx="3" fill="#2b45c4" fill-opacity="0.4"/>
+
+    <rect x="1190.5" y="254.5" width="249" height="111" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+    <circle cx="1218" cy="286" r="3.5" fill="none" stroke="#686c73" stroke-width="1.5"/>
+    <text x="1230" y="291" font-size="13" fill="#686c73">Unassigned</text>
+    <text x="1214" y="340" font-size="34" font-weight="650" fill="#111213" letter-spacing="-0.6">3</text>
+    <rect x="1336" y="320" width="80" height="24" rx="12" fill="#f2f2ee"/>
+    <text x="1376" y="336" font-size="12" font-weight="500" fill="#4f535a" text-anchor="middle">Needs crew</text>
+  </g>
+
+  <!-- Schedule board -->
+  <rect x="380.5" y="390.5" width="699" height="519" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="404" y="428" font-size="16" font-weight="650" fill="#111213">Schedule</text>
+  <g font-size="12" fill="#686c73">
+    <rect x="852" y="418" width="10" height="10" rx="3" fill="#2b45c4"/>
+    <text x="868" y="427">Active</text>
+    <rect x="922" y="418" width="10" height="10" rx="3" fill="#2b45c4" fill-opacity="0.12"/>
+    <text x="938" y="427">Booked</text>
+    <rect x="996" y="418" width="10" height="10" rx="3" fill="#f2f2ee" stroke="#e4e4de"/>
+    <text x="1012" y="427">Done</text>
+  </g>
+  <!-- hour labels -->
+  <g font-size="11" fill="#686c73" text-anchor="middle">
+    <text x="522" y="470">8am</text>
+    <text x="581" y="470">9am</text>
+    <text x="640" y="470">10am</text>
+    <text x="699" y="470">11am</text>
+    <text x="758" y="470">12pm</text>
+    <text x="817" y="470">1pm</text>
+    <text x="876" y="470">2pm</text>
+    <text x="935" y="470">3pm</text>
+    <text x="994" y="470">4pm</text>
+    <text x="1053" y="470">5pm</text>
+  </g>
+  <line x1="381" y1="482" x2="1079" y2="482" stroke="#e4e4de"/>
+  <!-- grid -->
+  <g stroke="#f2f2ee">
+    <line x1="522" y1="482" x2="522" y2="866"/>
+    <line x1="581" y1="482" x2="581" y2="866"/>
+    <line x1="640" y1="482" x2="640" y2="866"/>
+    <line x1="699" y1="482" x2="699" y2="866"/>
+    <line x1="758" y1="482" x2="758" y2="866"/>
+    <line x1="817" y1="482" x2="817" y2="866"/>
+    <line x1="876" y1="482" x2="876" y2="866"/>
+    <line x1="935" y1="482" x2="935" y2="866"/>
+    <line x1="994" y1="482" x2="994" y2="866"/>
+    <line x1="1053" y1="482" x2="1053" y2="866"/>
+  </g>
+  <g stroke="#e4e4de">
+    <line x1="381" y1="578" x2="1079" y2="578"/>
+    <line x1="381" y1="674" x2="1079" y2="674"/>
+    <line x1="381" y1="770" x2="1079" y2="770"/>
+    <line x1="381" y1="866" x2="1079" y2="866"/>
+  </g>
+  <!-- crew labels -->
+  <g>
+    <circle cx="418" cy="530" r="14" fill="#e4e4de"/>
+    <text x="418" y="534" font-size="11" font-weight="600" fill="#4f535a" text-anchor="middle">A</text>
+    <text x="440" y="526" font-size="14" font-weight="600" fill="#111213">Crew A</text>
+    <text x="440" y="544" font-size="12" fill="#686c73">3 jobs</text>
+
+    <circle cx="418" cy="626" r="14" fill="#e4e4de"/>
+    <text x="418" y="630" font-size="11" font-weight="600" fill="#4f535a" text-anchor="middle">B</text>
+    <text x="440" y="622" font-size="14" font-weight="600" fill="#111213">Crew B</text>
+    <text x="440" y="640" font-size="12" fill="#686c73">3 jobs</text>
+
+    <circle cx="418" cy="722" r="14" fill="#e4e4de"/>
+    <text x="418" y="726" font-size="11" font-weight="600" fill="#4f535a" text-anchor="middle">C</text>
+    <text x="440" y="718" font-size="14" font-weight="600" fill="#111213">Crew C</text>
+    <text x="440" y="736" font-size="12" fill="#686c73">2 jobs</text>
+
+    <circle cx="418" cy="818" r="14" fill="#e4e4de"/>
+    <text x="418" y="822" font-size="11" font-weight="600" fill="#4f535a" text-anchor="middle">D</text>
+    <text x="440" y="814" font-size="14" font-weight="600" fill="#111213">Crew D</text>
+    <text x="440" y="832" font-size="12" fill="#686c73">3 jobs</text>
+  </g>
+
+  <!-- now line -->
+  <line x1="738" y1="482" x2="738" y2="866" stroke="#2b45c4" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <circle cx="738" cy="482" r="4" fill="#2b45c4"/>
+
+  <!-- job blocks: row A -->
+  <rect x="524" y="502" width="114" height="56" rx="8" fill="#f2f2ee" stroke="#e4e4de"/>
+  <text x="536" y="525" font-size="12.5" font-weight="600" fill="#4f535a">Gutter repair</text>
+  <text x="536" y="543" font-size="11" fill="#686c73">8:00 – 10:00</text>
+  <rect x="671" y="502" width="144" height="56" rx="8" fill="#2b45c4"/>
+  <text x="683" y="525" font-size="12.5" font-weight="600" fill="#ffffff">Roof inspection</text>
+  <text x="683" y="543" font-size="11" fill="#ffffff" fill-opacity="0.75">10:30 – 1:00</text>
+  <rect x="878" y="502" width="144" height="56" rx="8" fill="#2b45c4" fill-opacity="0.1"/>
+  <text x="890" y="525" font-size="12.5" font-weight="600" fill="#2b45c4">Leak repair</text>
+  <text x="890" y="543" font-size="11" fill="#2b45c4" fill-opacity="0.75">2:00 – 4:30</text>
+
+  <!-- row B -->
+  <rect x="553" y="598" width="144" height="56" rx="8" fill="#f2f2ee" stroke="#e4e4de"/>
+  <text x="565" y="621" font-size="12.5" font-weight="600" fill="#4f535a">Furnace tune-up</text>
+  <text x="565" y="639" font-size="11" fill="#686c73">8:30 – 11:00</text>
+  <rect x="730" y="598" width="144" height="56" rx="8" fill="#2b45c4"/>
+  <text x="742" y="621" font-size="12.5" font-weight="600" fill="#ffffff">AC install</text>
+  <text x="742" y="639" font-size="11" fill="#ffffff" fill-opacity="0.75">11:30 – 2:00</text>
+  <rect x="937" y="598" width="114" height="56" rx="8" fill="#2b45c4" fill-opacity="0.1"/>
+  <text x="949" y="621" font-size="12.5" font-weight="600" fill="#2b45c4">Estimate</text>
+  <text x="949" y="639" font-size="11" fill="#2b45c4" fill-opacity="0.75">3:00 – 5:00</text>
+
+  <!-- row C -->
+  <rect x="583" y="694" width="173" height="56" rx="8" fill="#2b45c4"/>
+  <text x="595" y="717" font-size="12.5" font-weight="600" fill="#ffffff">Panel upgrade</text>
+  <text x="595" y="735" font-size="11" fill="#ffffff" fill-opacity="0.75">9:00 – 12:00</text>
+  <rect x="819" y="694" width="144" height="56" rx="8" fill="#2b45c4" fill-opacity="0.1"/>
+  <text x="831" y="717" font-size="12.5" font-weight="600" fill="#2b45c4">Outlet repair</text>
+  <text x="831" y="735" font-size="11" fill="#2b45c4" fill-opacity="0.75">1:00 – 3:30</text>
+
+  <!-- row D -->
+  <rect x="524" y="790" width="85" height="56" rx="8" fill="#f2f2ee" stroke="#e4e4de"/>
+  <text x="536" y="813" font-size="12.5" font-weight="600" fill="#4f535a">Drain clear</text>
+  <text x="536" y="831" font-size="11" fill="#686c73">8:00 – 9:30</text>
+  <rect x="642" y="790" width="114" height="56" rx="8" fill="#2b45c4" fill-opacity="0.1"/>
+  <text x="654" y="813" font-size="12.5" font-weight="600" fill="#2b45c4">Water heater</text>
+  <text x="654" y="831" font-size="11" fill="#2b45c4" fill-opacity="0.75">10:00 – 12:00</text>
+  <rect x="848" y="790" width="144" height="56" rx="8" fill="#2b45c4" fill-opacity="0.1"/>
+  <text x="860" y="813" font-size="12.5" font-weight="600" fill="#2b45c4">Fixture install</text>
+  <text x="860" y="831" font-size="11" fill="#2b45c4" fill-opacity="0.75">1:30 – 4:00</text>
+
+
+  <text x="404" y="894" font-size="12" fill="#686c73">Updated just now</text>
+
+  <!-- Unassigned jobs -->
+  <rect x="1100.5" y="390.5" width="339" height="519" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="1124" y="428" font-size="16" font-weight="650" fill="#111213">Unassigned jobs</text>
+  <rect x="1256" y="413" width="24" height="20" rx="10" fill="#2b45c4" fill-opacity="0.1"/>
+  <text x="1268" y="427.5" font-size="12" font-weight="600" fill="#2b45c4" text-anchor="middle">3</text>
+
+  <g>
+    <rect x="1120.5" y="450.5" width="299" height="99" rx="10" fill="#fafaf8" stroke="#e4e4de"/>
+    <text x="1138" y="480" font-size="14" font-weight="600" fill="#111213">Skylight leak</text>
+    <text x="1138" y="500" font-size="12" fill="#686c73">Est. 2 hrs · Window 10–12</text>
+    <rect x="1138" y="514" width="62" height="20" rx="10" fill="#f2f2ee"/>
+    <text x="1169" y="528" font-size="11" font-weight="500" fill="#4f535a" text-anchor="middle">Priority</text>
+    <rect x="1334" y="466" width="70" height="32" rx="8" fill="#2b45c4"/>
+    <text x="1369" y="486.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">Assign</text>
+  </g>
+  <g>
+    <rect x="1120.5" y="566.5" width="299" height="99" rx="10" fill="#fafaf8" stroke="#e4e4de"/>
+    <text x="1138" y="596" font-size="14" font-weight="600" fill="#111213">Thermostat swap</text>
+    <text x="1138" y="616" font-size="12" fill="#686c73">Est. 1 hr · Any time</text>
+    <rect x="1138" y="630" width="58" height="20" rx="10" fill="#f2f2ee"/>
+    <text x="1167" y="644" font-size="11" font-weight="500" fill="#4f535a" text-anchor="middle">HVAC</text>
+    <rect x="1334" y="582" width="70" height="32" rx="8" fill="#2b45c4"/>
+    <text x="1369" y="602.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">Assign</text>
+  </g>
+  <g>
+    <rect x="1120.5" y="682.5" width="299" height="99" rx="10" fill="#fafaf8" stroke="#e4e4de"/>
+    <text x="1138" y="712" font-size="14" font-weight="600" fill="#111213">Gutter cleaning</text>
+    <text x="1138" y="732" font-size="12" fill="#686c73">Est. 3 hrs · Afternoon</text>
+    <rect x="1138" y="746" width="66" height="20" rx="10" fill="#f2f2ee"/>
+    <text x="1171" y="760" font-size="11" font-weight="500" fill="#4f535a" text-anchor="middle">Exterior</text>
+    <rect x="1334" y="698" width="70" height="32" rx="8" fill="#2b45c4"/>
+    <text x="1369" y="718.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">Assign</text>
+  </g>
+  <text x="1416" y="886" font-size="13" font-weight="600" fill="#2b45c4" text-anchor="end">View all jobs →</text>
+</svg>

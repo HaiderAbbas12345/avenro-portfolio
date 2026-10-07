@@ -1,26 +1,274 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*
+ * Avenro design tokens. One quiet palette, one accent, used sparingly.
+ * Text colors are chosen to pass WCAG AA on both canvas and surface.
+ */
+@theme {
+  --color-canvas: #fafaf8;
+  --color-surface: #ffffff;
+  --color-sunken: #f2f2ee;
+  --color-ink: #111213;
+  --color-ink-muted: #4f535a;
+  --color-ink-subtle: #686c73;
+  --color-line: #e4e4de;
+  --color-line-strong: #cfcfc7;
+  --color-accent: #2b45c4;
+  --color-accent-hover: #2238a6;
+  --color-accent-soft: #eef0fb;
+  --color-success: #1d6b45;
+
+  /* Dark sections */
+  --color-night: #0b0c0f;
+  --color-night-raised: #14161b;
+  --color-night-line: rgb(255 255 255 / 0.09);
+  --color-night-muted: #a4a8b1;
+  --color-accent-bright: #7d90ff;
+  --color-danger: #b42318;
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+
+  --radius-card: 0.875rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    scroll-padding-top: 5rem;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+
+  ::selection {
+    background: var(--color-accent-soft);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility container-page {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  @media (width >= 40rem) {
+    padding-inline: 1.5rem;
+  }
+  @media (width >= 64rem) {
+    padding-inline: 2rem;
+  }
+}
+
+@utility eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-ink-subtle);
+}
+
+/* Subtle engineering-grid background for dark bands. */
+@utility bg-grid {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.045) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+@utility bg-grid-light {
+  background-image:
+    linear-gradient(to right, rgb(17 18 19 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(17 18 19 / 0.05) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+/*
+ * Scroll reveal with zero JavaScript: uses CSS scroll-driven animations where
+ * supported, and is skipped entirely for reduced-motion users and older browsers
+ * (content is always visible by default).
+ */
+/* Movement only — text is never faded, so contrast is always full. */
+@keyframes reveal-up {
+  from {
+    transform: translateY(28px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 35%;
+    }
+  }
+}
+
+/*
+ * Long-form typography for articles, case studies and legal pages.
+ * Kept in one place so every MDX document reads the same.
+ */
+@layer components {
+  .prose-avenro {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: var(--color-ink-muted);
+    max-width: 42rem;
+  }
+
+  .prose-avenro > * + * {
+    margin-top: 1.25em;
+  }
+
+  .prose-avenro h2 {
+    margin-top: 2.25em;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    color: var(--color-ink);
+  }
+
+  .prose-avenro h3 {
+    margin-top: 1.75em;
+    font-size: 1.1875rem;
+    line-height: 1.4;
+    font-weight: 600;
+    color: var(--color-ink);
+  }
+
+  .prose-avenro h2 + *,
+  .prose-avenro h3 + * {
+    margin-top: 0.75em;
+  }
+
+  .prose-avenro strong {
+    color: var(--color-ink);
+    font-weight: 600;
+  }
+
+  .prose-avenro a {
+    color: var(--color-accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  .prose-avenro a:hover {
+    color: var(--color-accent-hover);
+  }
+
+  .prose-avenro ul,
+  .prose-avenro ol {
+    padding-left: 1.25em;
+  }
+
+  .prose-avenro ul {
+    list-style: disc;
+  }
+
+  .prose-avenro ol {
+    list-style: decimal;
+  }
+
+  .prose-avenro li + li {
+    margin-top: 0.5em;
+  }
+
+  .prose-avenro li::marker {
+    color: var(--color-ink-subtle);
+  }
+
+  .prose-avenro blockquote {
+    border-left: 2px solid var(--color-ink);
+    padding-left: 1.25em;
+    color: var(--color-ink);
+    font-style: normal;
+  }
+
+  .prose-avenro hr {
+    margin-block: 2.5em;
+    border-color: var(--color-line);
+  }
+
+  .prose-avenro code {
+    font-family: var(--font-mono);
+    font-size: 0.875em;
+    background: var(--color-sunken);
+    border-radius: 0.3rem;
+    padding: 0.1em 0.35em;
+    color: var(--color-ink);
+  }
+
+  .prose-avenro pre {
+    overflow-x: auto;
+    background: var(--color-ink);
+    color: #f4f4f2;
+    border-radius: var(--radius-card);
+    padding: 1.1rem 1.25rem;
+    font-size: 0.875rem;
+    line-height: 1.65;
+  }
+
+  .prose-avenro pre code {
+    background: transparent;
+    padding: 0;
+    color: inherit;
+  }
+
+  .prose-avenro table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+  }
+
+  .prose-avenro th {
+    text-align: left;
+    font-weight: 600;
+    color: var(--color-ink);
+    border-bottom: 1px solid var(--color-line-strong);
+    padding: 0.6em 0.75em 0.6em 0;
+  }
+
+  .prose-avenro td {
+    border-bottom: 1px solid var(--color-line);
+    padding: 0.6em 0.75em 0.6em 0;
+    vertical-align: top;
+  }
+
+  .prose-avenro img {
+    border-radius: var(--radius-card);
+    border: 1px solid var(--color-line);
+  }
 }

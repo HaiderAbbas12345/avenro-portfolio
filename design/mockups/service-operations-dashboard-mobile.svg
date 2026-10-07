@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Crew mobile app concept</title>
+
+  <!-- Canvas -->
+  <rect width="390" height="844" fill="#fafaf8"/>
+  <rect width="390" height="152" fill="#ffffff"/>
+  <line x1="0" y1="152.5" x2="390" y2="152.5" stroke="#e4e4de"/>
+
+  <!-- Status bar -->
+  <text x="40" y="33" font-size="16" font-weight="600" fill="#111213" letter-spacing="-0.2">9:41</text>
+  <g fill="#111213">
+    <rect x="290" y="27" width="3" height="5" rx="1"/>
+    <rect x="295" y="24.5" width="3" height="7.5" rx="1"/>
+    <rect x="300" y="22" width="3" height="10" rx="1"/>
+    <rect x="305" y="19.5" width="3" height="12.5" rx="1"/>
+  </g>
+  <path d="M316 24.5 a10 10 0 0 1 14 0 M318.8 27.3 a6 6 0 0 1 8.4 0" fill="none" stroke="#111213" stroke-width="1.7" stroke-linecap="round"/>
+  <circle cx="323" cy="30.5" r="1.6" fill="#111213"/>
+  <rect x="337.5" y="20.5" width="23" height="12" rx="3.5" fill="none" stroke="#111213" stroke-opacity="0.4"/>
+  <rect x="339.5" y="22.5" width="17" height="8" rx="2" fill="#111213"/>
+  <path d="M362.5 24.5 v4 a2 2 0 0 0 0 -4 Z" fill="#111213" fill-opacity="0.4"/>
+
+  <!-- Header -->
+  <text x="20" y="78" font-size="13" font-weight="500" fill="#686c73">Tuesday, Oct 7 · Crew A</text>
+  <text x="19" y="110" font-size="28" font-weight="650" fill="#111213" letter-spacing="-0.6">My jobs today</text>
+  <circle cx="350" cy="94" r="19" fill="#e4e4de"/>
+  <text x="350" y="98.5" font-size="12" font-weight="600" fill="#4f535a" text-anchor="middle">JT</text>
+  <rect x="20" y="128" width="250" height="6" rx="3" fill="#f2f2ee"/>
+  <rect x="20" y="128" width="83" height="6" rx="3" fill="#2b45c4"/>
+  <text x="370" y="135" font-size="12.5" fill="#686c73" text-anchor="end">1 of 3 done</text>
+
+  <!-- Card 1: done -->
+  <g>
+    <rect x="16.5" y="170.5" width="357" height="113" rx="14" fill="#ffffff" stroke="#e4e4de"/>
+    <text x="36" y="198" font-size="13" font-weight="600" fill="#686c73">8:00 – 10:00</text>
+    <rect x="292" y="184" width="62" height="22" rx="11" fill="#f2f2ee"/>
+    <path d="M303 195 l3 3 l5 -5.5" fill="none" stroke="#4f535a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="316" y="199.5" font-size="11.5" font-weight="600" fill="#4f535a">Done</text>
+    <text x="36" y="224" font-size="16" font-weight="600" fill="#4f535a">Patel residence</text>
+    <rect x="36" y="236" width="176" height="8" rx="4" fill="#f2f2ee"/>
+    <rect x="36" y="254" width="84" height="20" rx="10" fill="#f2f2ee"/>
+    <text x="78" y="268" font-size="11.5" font-weight="500" fill="#686c73" text-anchor="middle">Drain clear</text>
+  </g>
+
+  <!-- Card 2: expanded -->
+  <g>
+    <rect x="16" y="296" width="358" height="262" rx="14" fill="#ffffff" stroke="#2b45c4" stroke-width="1.5"/>
+    <text x="36" y="324" font-size="13" font-weight="600" fill="#111213">10:30 – 1:00</text>
+    <rect x="276" y="310" width="78" height="22" rx="11" fill="#2b45c4" fill-opacity="0.1"/>
+    <circle cx="289" cy="321" r="3.5" fill="#2b45c4"/>
+    <text x="298" y="325.5" font-size="11.5" font-weight="600" fill="#2b45c4">Next up</text>
+    <text x="36" y="351" font-size="18" font-weight="650" fill="#111213" letter-spacing="-0.2">Nguyen residence</text>
+    <rect x="36" y="364" width="210" height="8" rx="4" fill="#e4e4de"/>
+    <rect x="36" y="380" width="140" height="8" rx="4" fill="#e4e4de"/>
+    <rect x="36" y="400" width="96" height="22" rx="11" fill="#f2f2ee"/>
+    <text x="84" y="415" font-size="11.5" font-weight="500" fill="#4f535a" text-anchor="middle">Gutter repair</text>
+    <rect x="140" y="400" width="74" height="22" rx="11" fill="#f2f2ee"/>
+    <text x="177" y="415" font-size="11.5" font-weight="500" fill="#4f535a" text-anchor="middle">Est. 2.5 h</text>
+    <line x1="36" y1="440.5" x2="354" y2="440.5" stroke="#e4e4de"/>
+    <!-- detail rows -->
+    <rect x="36" y="452" width="16" height="16" rx="4" fill="none" stroke="#686c73" stroke-width="1.5"/>
+    <line x1="40" y1="458" x2="48" y2="458" stroke="#686c73" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="40" y1="462" x2="45" y2="462" stroke="#686c73" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="62" y="465" font-size="13" fill="#4f535a">Side gate, dog on site</text>
+    <path d="M338 454 l5 5 -5 5" fill="none" stroke="#686c73" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- buttons -->
+    <rect x="36.5" y="490.5" width="149" height="47" rx="10" fill="#ffffff" stroke="#d6d6cf"/>
+    <path d="M71 522 l7 -16 7 16 -7 -4 Z" fill="none" stroke="#111213" stroke-width="1.6" stroke-linejoin="round"/>
+    <text x="93" y="519" font-size="15" font-weight="600" fill="#111213">Navigate</text>
+    <rect x="198" y="490" width="156" height="48" rx="10" fill="#2b45c4"/>
+    <path d="M240 506 v16 l13 -8 Z" fill="#ffffff"/>
+    <text x="261" y="519" font-size="15" font-weight="600" fill="#ffffff">Start job</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g>
+    <rect x="16.5" y="570.5" width="357" height="113" rx="14" fill="#ffffff" stroke="#e4e4de"/>
+    <text x="36" y="598" font-size="13" font-weight="600" fill="#111213">2:00 – 4:30</text>
+    <rect x="270" y="584" width="84" height="22" rx="11" fill="#ffffff" stroke="#e4e4de"/>
+    <text x="312" y="599.5" font-size="11.5" font-weight="600" fill="#4f535a" text-anchor="middle">Scheduled</text>
+    <text x="36" y="624" font-size="16" font-weight="600" fill="#111213">Brooks residence</text>
+    <rect x="36" y="636" width="192" height="8" rx="4" fill="#e4e4de"/>
+    <rect x="36" y="654" width="106" height="20" rx="10" fill="#f2f2ee"/>
+    <text x="89" y="668" font-size="11.5" font-weight="500" fill="#4f535a" text-anchor="middle">Roof inspection</text>
+    <path d="M338 622 l5 5 -5 5" fill="none" stroke="#686c73" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="195" y="720" font-size="12.5" fill="#686c73" text-anchor="middle">No more jobs scheduled today</text>
+
+  <!-- Tab bar -->
+  <rect x="0" y="752" width="390" height="92" fill="#ffffff"/>
+  <line x1="0" y1="752.5" x2="390" y2="752.5" stroke="#e4e4de"/>
+  <!-- Today (active) -->
+  <rect x="39" y="766" width="20" height="20" rx="5" fill="none" stroke="#2b45c4" stroke-width="1.8"/>
+  <circle cx="49" cy="776" r="3" fill="#2b45c4"/>
+  <g fill="none" stroke="#686c73" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Schedule -->
+    <rect x="136" y="767" width="20" height="19" rx="4"/>
+    <line x1="136" y1="773.5" x2="156" y2="773.5"/>
+    <line x1="141" y1="764" x2="141" y2="769"/>
+    <line x1="151" y1="764" x2="151" y2="769"/>
+    <!-- Messages -->
+    <path d="M234 768 h20 a2 2 0 0 1 2 2 v11 a2 2 0 0 1 -2 2 h-12 l-5 4 v-4 h-3 a2 2 0 0 1 -2 -2 v-11 a2 2 0 0 1 2 -2 Z"/>
+    <!-- Profile -->
+    <circle cx="341" cy="772" r="4.5"/>
+    <path d="M332 786 c0 -5.5 4 -8.5 9 -8.5 s9 3 9 8.5"/>
+  </g>
+  <circle cx="256" cy="767" r="4" fill="#2b45c4" stroke="#ffffff" stroke-width="1.5"/>
+  <g font-size="11" font-weight="500" text-anchor="middle">
+    <text x="49" y="804" fill="#2b45c4" font-weight="600">Today</text>
+    <text x="146" y="804" fill="#686c73">Schedule</text>
+    <text x="244" y="804" fill="#686c73">Messages</text>
+    <text x="341" y="804" fill="#686c73">Profile</text>
+  </g>
+  <rect x="128" y="830" width="134" height="5" rx="2.5" fill="#111213"/>
+</svg>

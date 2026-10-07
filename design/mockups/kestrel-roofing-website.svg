@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Kestrel Roofing website concept</title>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="28" flood-color="#111213" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="1600" height="1000" fill="#f2f2ee"/>
+
+  <!-- Window -->
+  <rect x="120" y="90" width="1360" height="940" rx="16" fill="#ffffff" stroke="#e4e4de" filter="url(#shadow)"/>
+  <path d="M120.5 142 V106 a15.5 15.5 0 0 1 15.5 -15.5 H1464 a15.5 15.5 0 0 1 15.5 15.5 V142 Z" fill="#fafaf8"/>
+  <line x1="120" y1="142" x2="1480" y2="142" stroke="#e4e4de"/>
+  <circle cx="148" cy="116" r="6" fill="#e4e4de"/>
+  <circle cx="168" cy="116" r="6" fill="#e4e4de"/>
+  <circle cx="188" cy="116" r="6" fill="#e4e4de"/>
+  <rect x="620" y="102" width="360" height="28" rx="14" fill="#f2f2ee"/>
+  <path d="M770 111.5 a3.5 3.5 0 0 1 7 0 V114 M767.5 114 h12 v7.5 h-12 Z" fill="none" stroke="#686c73" stroke-width="1.4" stroke-linejoin="round"/>
+  <text x="788" y="121" font-size="13" fill="#686c73">kestrelroofing.example</text>
+
+  <!-- Nav -->
+  <path d="M192 192 L205 180 L218 192" fill="none" stroke="#1f5160" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M197 198 L205 191 L213 198" fill="none" stroke="#1f5160" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/>
+  <text x="230" y="194" font-size="18" font-weight="650" fill="#111213" letter-spacing="-0.2">Kestrel Roofing</text>
+  <g font-size="15" fill="#4f535a">
+    <text x="948" y="188">Services</text>
+    <text x="1036" y="188">Projects</text>
+    <text x="1124" y="188">About</text>
+    <text x="1196" y="188">Contact</text>
+  </g>
+  <rect x="1288" y="162" width="120" height="40" rx="8" fill="#1f5160"/>
+  <text x="1348" y="187" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">Get a Quote</text>
+  <line x1="120" y1="222" x2="1480" y2="222" stroke="#e4e4de"/>
+
+  <!-- Hero copy -->
+  <rect x="192" y="282" width="168" height="28" rx="14" fill="#1f5160" fill-opacity="0.08"/>
+  <circle cx="208" cy="296" r="3.5" fill="#1f5160"/>
+  <text x="220" y="301" font-size="13" font-weight="600" fill="#1f5160">Residential roofing</text>
+  <text x="190" y="370" font-size="46" font-weight="650" fill="#111213" letter-spacing="-1.2">Roof repairs and replacements,</text>
+  <text x="190" y="424" font-size="46" font-weight="650" fill="#111213" letter-spacing="-1.2">done properly.</text>
+  <rect x="192" y="456" width="460" height="10" rx="5" fill="#e4e4de"/>
+  <rect x="192" y="478" width="388" height="10" rx="5" fill="#e4e4de"/>
+  <rect x="192" y="520" width="176" height="48" rx="8" fill="#1f5160"/>
+  <text x="280" y="549" font-size="15" font-weight="600" fill="#ffffff" text-anchor="middle">Get a Free Quote</text>
+  <rect x="384.5" y="520.5" width="211" height="47" rx="8" fill="#ffffff" stroke="#d6d6cf"/>
+  <path d="M406 536.5 c0 7 5.5 12.5 12.5 12.5 l2.5 -3 -3.5 -2.5 -2 1.5 c-2 -1 -3.5 -2.5 -4.5 -4.5 l1.5 -2 -2.5 -3.5 Z" fill="none" stroke="#111213" stroke-width="1.4" stroke-linejoin="round"/>
+  <text x="430" y="549" font-size="15" font-weight="600" fill="#111213">Call (555) 014-2290</text>
+
+  <!-- Hero illustration -->
+  <rect x="932.5" y="262.5" width="475" height="329" rx="12" fill="#fafaf8" stroke="#e4e4de"/>
+  <circle cx="1010" cy="326" r="26" fill="#e9e9e3"/>
+  <rect x="1300" y="306" width="64" height="8" rx="4" fill="#e9e9e3"/>
+  <rect x="1320" y="322" width="44" height="8" rx="4" fill="#e9e9e3"/>
+  <path d="M933 548 H1407 V579 a12 12 0 0 1 -12 12 H945 a12 12 0 0 1 -12 -12 Z" fill="#ecece6"/>
+  <line x1="933" y1="548" x2="1407" y2="548" stroke="#dcdcd5"/>
+  <!-- back-left house -->
+  <rect x="984" y="440" width="140" height="108" fill="#e4e4de"/>
+  <path d="M966 446 L1054 378 L1142 446 Z" fill="#c4cac9"/>
+  <rect x="1012" y="474" width="28" height="28" rx="2" fill="#f2f2ee"/>
+  <rect x="1060" y="474" width="28" height="28" rx="2" fill="#f2f2ee"/>
+  <!-- right small house -->
+  <rect x="1300" y="472" width="82" height="76" fill="#e0e3df"/>
+  <path d="M1288 478 L1341 436 L1394 478 Z" fill="#b5c1c3"/>
+  <rect x="1346" y="500" width="22" height="22" rx="2" fill="#f2f2ee"/>
+  <!-- main house -->
+  <rect x="1236" y="346" width="22" height="48" fill="#8e9a9c"/>
+  <rect x="1110" y="420" width="200" height="128" fill="#ffffff" stroke="#dcdcd5"/>
+  <path d="M1088 428 L1210 330 L1332 428 Z" fill="#1f5160"/>
+  <g stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5">
+    <line x1="1185" y1="350" x2="1235" y2="350"/>
+    <line x1="1160" y1="370" x2="1260" y2="370"/>
+    <line x1="1135" y1="390" x2="1285" y2="390"/>
+    <line x1="1110" y1="410" x2="1310" y2="410"/>
+  </g>
+  <rect x="1084" y="426" width="252" height="6" rx="3" fill="#163d49"/>
+  <rect x="1190" y="476" width="40" height="72" rx="3" fill="#1f5160" fill-opacity="0.85"/>
+  <circle cx="1222" cy="514" r="2" fill="#ffffff"/>
+  <rect x="1134" y="460" width="36" height="36" rx="3" fill="#f2f2ee" stroke="#dcdcd5"/>
+  <line x1="1152" y1="460" x2="1152" y2="496" stroke="#dcdcd5"/>
+  <rect x="1250" y="460" width="36" height="36" rx="3" fill="#f2f2ee" stroke="#dcdcd5"/>
+  <line x1="1268" y1="460" x2="1268" y2="496" stroke="#dcdcd5"/>
+  <!-- shrubs -->
+  <circle cx="1112" cy="544" r="12" fill="#d3d9d4"/>
+  <circle cx="1310" cy="544" r="10" fill="#d3d9d4"/>
+  <circle cx="972" cy="545" r="9" fill="#dcdfda"/>
+
+  <!-- Service cards -->
+  <g>
+    <rect x="192.5" y="640.5" width="388" height="208" rx="12" fill="#fafaf8" stroke="#e4e4de"/>
+    <rect x="220" y="668" width="40" height="40" rx="8" fill="#1f5160" fill-opacity="0.08"/>
+    <path d="M230 692 L240 683 L250 692" fill="none" stroke="#1f5160" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="236" y="694" width="8" height="6" rx="1.5" fill="#1f5160"/>
+    <text x="220" y="752" font-size="20" font-weight="650" fill="#111213" letter-spacing="-0.3">Roof Repair</text>
+    <rect x="220" y="770" width="300" height="8" rx="4" fill="#e4e4de"/>
+    <rect x="220" y="788" width="236" height="8" rx="4" fill="#e4e4de"/>
+    <text x="220" y="828" font-size="14" font-weight="600" fill="#1f5160">Learn more →</text>
+  </g>
+  <g>
+    <rect x="606.5" y="640.5" width="388" height="208" rx="12" fill="#fafaf8" stroke="#e4e4de"/>
+    <rect x="634" y="668" width="40" height="40" rx="8" fill="#1f5160" fill-opacity="0.08"/>
+    <path d="M643 691 L654 681 L665 691" fill="none" stroke="#1f5160" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="646" y1="696" x2="662" y2="696" stroke="#1f5160" stroke-width="2" stroke-linecap="round"/>
+    <line x1="649" y1="701" x2="659" y2="701" stroke="#1f5160" stroke-width="2" stroke-linecap="round"/>
+    <text x="634" y="752" font-size="20" font-weight="650" fill="#111213" letter-spacing="-0.3">Replacement</text>
+    <rect x="634" y="770" width="292" height="8" rx="4" fill="#e4e4de"/>
+    <rect x="634" y="788" width="252" height="8" rx="4" fill="#e4e4de"/>
+    <text x="634" y="828" font-size="14" font-weight="600" fill="#1f5160">Learn more →</text>
+  </g>
+  <g>
+    <rect x="1020.5" y="640.5" width="387" height="208" rx="12" fill="#fafaf8" stroke="#e4e4de"/>
+    <rect x="1048" y="668" width="40" height="40" rx="8" fill="#1f5160" fill-opacity="0.08"/>
+    <circle cx="1066" cy="686" r="7" fill="none" stroke="#1f5160" stroke-width="2"/>
+    <line x1="1071" y1="691" x2="1077" y2="697" stroke="#1f5160" stroke-width="2" stroke-linecap="round"/>
+    <text x="1048" y="752" font-size="20" font-weight="650" fill="#111213" letter-spacing="-0.3">Inspections</text>
+    <rect x="1048" y="770" width="296" height="8" rx="4" fill="#e4e4de"/>
+    <rect x="1048" y="788" width="216" height="8" rx="4" fill="#e4e4de"/>
+    <text x="1048" y="828" font-size="14" font-weight="600" fill="#1f5160">Learn more →</text>
+  </g>
+
+  <!-- Trust row -->
+  <line x1="192" y1="884" x2="1408" y2="884" stroke="#e4e4de"/>
+  <g font-size="15" fill="#4f535a">
+    <circle cx="202" cy="921" r="10" fill="#1f5160" fill-opacity="0.1"/>
+    <path d="M197.5 921 l3 3 l5.5 -6" fill="none" stroke="#1f5160" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="222" y="926">Licensed &amp; insured</text>
+
+    <circle cx="522" cy="921" r="10" fill="#1f5160" fill-opacity="0.1"/>
+    <path d="M517.5 921 l3 3 l5.5 -6" fill="none" stroke="#1f5160" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="542" y="926">Written estimates</text>
+
+    <circle cx="836" cy="921" r="10" fill="#1f5160" fill-opacity="0.1"/>
+    <path d="M831.5 921 l3 3 l5.5 -6" fill="none" stroke="#1f5160" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="856" y="926">Local crews</text>
+
+    <circle cx="1124" cy="921" r="10" fill="#1f5160" fill-opacity="0.1"/>
+    <path d="M1119.5 921 l3 3 l5.5 -6" fill="none" stroke="#1f5160" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1144" y="926">Clean, tidy job sites</text>
+  </g>
+</svg>

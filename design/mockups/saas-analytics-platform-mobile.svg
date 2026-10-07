@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>SaaS analytics platform mobile concept</title>
+  <defs>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d4aff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#6d4aff" stop-opacity="0.01"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="390" height="844" fill="#fafaf8"/>
+
+  <!-- Status bar -->
+  <text x="38" y="33" font-size="16" font-weight="600" fill="#111213">9:41</text>
+  <g fill="#111213">
+    <rect x="290" y="25" width="3" height="5" rx="1"/>
+    <rect x="295" y="22.5" width="3" height="7.5" rx="1"/>
+    <rect x="300" y="20" width="3" height="10" rx="1"/>
+    <rect x="305" y="17.5" width="3" height="12.5" rx="1"/>
+    <path d="M314 22 a10 10 0 0 1 14 0 l-1.6 1.7 a7.6 7.6 0 0 0 -10.8 0 Z M317.4 25.5 a5.2 5.2 0 0 1 7.2 0 l-1.7 1.7 a2.8 2.8 0 0 0 -3.8 0 Z M321 30 l-1.8 -1.8 a2.6 2.6 0 0 1 3.6 0 Z"/>
+    <rect x="334.5" y="17.5" width="23" height="12" rx="3.5" fill="none" stroke="#111213" stroke-opacity="0.4"/>
+    <rect x="336.5" y="19.5" width="17" height="8" rx="2"/>
+    <path d="M359 21.5 v4 a2 2 0 0 0 0 -4 Z" fill-opacity="0.4"/>
+  </g>
+
+  <!-- Header -->
+  <rect x="20" y="62" width="26" height="26" rx="7" fill="#6d4aff"/>
+  <path d="M27 81 V75 M33 81 V69 M39 81 V73" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <text x="20" y="124" font-size="26" font-weight="650" fill="#111213" letter-spacing="-0.5">Overview</text>
+  <rect x="236.5" y="101.5" width="133" height="31" rx="15.5" fill="#ffffff" stroke="#e4e4de"/>
+  <rect x="251" y="111" width="12" height="11" rx="2" fill="none" stroke="#686c73" stroke-width="1.3"/>
+  <line x1="251" y1="114.5" x2="263" y2="114.5" stroke="#686c73" stroke-width="1.3"/>
+  <text x="270" y="121.5" font-size="12.5" font-weight="500" fill="#111213">Last 30 days</text>
+  <path d="M349 115 l3.5 3.5 l3.5 -3.5" fill="none" stroke="#686c73" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="352" cy="75" r="16" fill="#e4e4de"/>
+  <text x="352" y="79" font-size="11" font-weight="600" fill="#4f535a" text-anchor="middle">AK</text>
+
+  <!-- KPI tiles -->
+  <rect x="20.5" y="148.5" width="164" height="91" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="36" y="174" font-size="12" fill="#686c73">MRR</text>
+  <text x="36" y="208" font-size="24" font-weight="650" fill="#111213" letter-spacing="-0.5">$48.2k</text>
+  <text x="36" y="226" font-size="11.5" font-weight="600" fill="#6d4aff">+9.6%</text>
+
+  <rect x="205.5" y="148.5" width="164" height="91" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="221" y="174" font-size="12" fill="#686c73">Active accounts</text>
+  <text x="221" y="208" font-size="24" font-weight="650" fill="#111213" letter-spacing="-0.5">1,284</text>
+  <text x="221" y="226" font-size="11.5" font-weight="600" fill="#6d4aff">+64</text>
+
+  <rect x="20.5" y="251.5" width="164" height="91" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="36" y="277" font-size="12" fill="#686c73">Churn</text>
+  <text x="36" y="311" font-size="24" font-weight="650" fill="#111213" letter-spacing="-0.5">2.1%</text>
+  <text x="36" y="329" font-size="11.5" font-weight="600" fill="#4f535a">−0.3 pt</text>
+
+  <rect x="205.5" y="251.5" width="164" height="91" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="221" y="277" font-size="12" fill="#686c73">Net retention</text>
+  <text x="221" y="311" font-size="24" font-weight="650" fill="#111213" letter-spacing="-0.5">108%</text>
+  <rect x="221" y="323" width="132" height="5" rx="2.5" fill="#f2f2ee"/>
+  <rect x="221" y="323" width="102" height="5" rx="2.5" fill="#6d4aff"/>
+
+  <!-- Area chart card -->
+  <rect x="20.5" y="362.5" width="349" height="199" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="38" y="392" font-size="14.5" font-weight="650" fill="#111213">MRR growth</text>
+  <text x="352" y="392" font-size="12" fill="#686c73" text-anchor="end">Jan – Jun</text>
+  <g stroke="#f2f2ee">
+    <line x1="38" y1="420" x2="352" y2="420"/>
+    <line x1="38" y1="458" x2="352" y2="458"/>
+    <line x1="38" y1="496" x2="352" y2="496"/>
+  </g>
+  <line x1="38" y1="534" x2="352" y2="534" stroke="#e4e4de"/>
+  <path d="M42 500 C64 497 86 492 108 490 C130 488 152 489 174 485 C196 481 218 472 240 469 C262 466 284 462 306 457 C320 454 334 448 346 444 L346 534 L42 534 Z" fill="url(#area)"/>
+  <path d="M42 500 C64 497 86 492 108 490 C130 488 152 489 174 485 C196 481 218 472 240 469 C262 466 284 462 306 457 C320 454 334 448 346 444" fill="none" stroke="#6d4aff" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="346" cy="444" r="4.5" fill="#ffffff" stroke="#6d4aff" stroke-width="2.2"/>
+  <g font-size="10.5" fill="#686c73" text-anchor="middle">
+    <text x="48" y="551">Jan</text>
+    <text x="108" y="551">Feb</text>
+    <text x="174" y="551">Mar</text>
+    <text x="240" y="551">Apr</text>
+    <text x="300" y="551">May</text>
+    <text x="344" y="551">Jun</text>
+  </g>
+
+  <!-- Recent events -->
+  <text x="20" y="598" font-size="16" font-weight="650" fill="#111213">Recent events</text>
+  <text x="370" y="598" font-size="13" font-weight="600" fill="#6d4aff" text-anchor="end">See all</text>
+  <rect x="20.5" y="612.5" width="349" height="131" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+
+  <circle cx="42" cy="638" r="5" fill="#6d4aff"/>
+  <text x="58" y="642.5" font-size="13.5" font-weight="600" fill="#111213">Upgraded to Scale</text>
+  <text x="352" y="642.5" font-size="12" fill="#686c73" text-anchor="end">12m</text>
+  <line x1="38" y1="656.5" x2="352" y2="656.5" stroke="#f2f2ee"/>
+
+  <circle cx="42" cy="678" r="5" fill="#6d4aff" fill-opacity="0.45"/>
+  <text x="58" y="682.5" font-size="13.5" font-weight="600" fill="#111213">New trial started</text>
+  <text x="352" y="682.5" font-size="12" fill="#686c73" text-anchor="end">48m</text>
+  <line x1="38" y1="696.5" x2="352" y2="696.5" stroke="#f2f2ee"/>
+
+  <circle cx="42" cy="718" r="5" fill="#c9ccd1"/>
+  <text x="58" y="722.5" font-size="13.5" font-weight="600" fill="#111213">Seats reduced</text>
+  <text x="352" y="722.5" font-size="12" fill="#686c73" text-anchor="end">2h</text>
+
+  <!-- Tab bar -->
+  <rect x="0" y="756" width="390" height="88" fill="#ffffff"/>
+  <line x1="0" y1="756.5" x2="390" y2="756.5" stroke="#e4e4de"/>
+  <g fill="none" stroke="#6d4aff" stroke-width="1.7" stroke-linejoin="round">
+    <rect x="40" y="770" width="9" height="9" rx="2"/>
+    <rect x="52" y="770" width="9" height="9" rx="2"/>
+    <rect x="40" y="782" width="9" height="9" rx="2"/>
+    <rect x="52" y="782" width="9" height="9" rx="2"/>
+  </g>
+  <text x="50.5" y="808" font-size="11" font-weight="600" fill="#6d4aff" text-anchor="middle">Overview</text>
+  <g fill="none" stroke="#686c73" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M138 769 h11 l5 5 v18 h-16 Z M149 769 v5 h5 M142 779 h8 M142 784 h6"/>
+    <circle cx="242" cy="775" r="4"/>
+    <path d="M234 791 c0 -5 3.5 -8 8 -8 s8 3 8 8"/>
+    <circle cx="340" cy="780.5" r="3.2"/>
+    <circle cx="340" cy="780.5" r="9" stroke-dasharray="3.6 3"/>
+  </g>
+  <text x="146" y="808" font-size="11" font-weight="500" fill="#686c73" text-anchor="middle">Reports</text>
+  <text x="242" y="808" font-size="11" font-weight="500" fill="#686c73" text-anchor="middle">Customers</text>
+  <text x="340" y="808" font-size="11" font-weight="500" fill="#686c73" text-anchor="middle">Settings</text>
+  <rect x="128" y="830" width="134" height="5" rx="2.5" fill="#111213"/>
+</svg>

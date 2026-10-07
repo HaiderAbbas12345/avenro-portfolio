@@ -1,0 +1,69 @@
+---
+title: "Service Operations Dashboard"
+client: "Concept project"
+type: "concept"
+category: "Web Application"
+service: "web-applications"
+summary: "An internal dispatch and scheduling dashboard concept for a home-services company moving off spreadsheets and group chats."
+description: "Concept case study: an internal operations dashboard for scheduling crews, tracking jobs and spotting unassigned work at a glance."
+date: "2026-10-07"
+technologies: ["Next.js", "React", "TypeScript", "PostgreSQL", "Tailwind CSS"]
+image: "/images/work/service-operations-dashboard.webp"
+imageAlt: "Operations dashboard concept showing today's job counts, a crew schedule timeline and a list of unassigned jobs with assign buttons."
+screen: "/images/work/service-operations-dashboard-screen.webp"
+screenAlt: "Dispatch dashboard Today view with job counts, a crew schedule timeline and an unassigned jobs queue."
+mobile: "/images/work/service-operations-dashboard-mobile.webp"
+mobileAlt: "Crew mobile app listing today's jobs with navigate and start job buttons."
+accent: "#2b45c4"
+industry: "Home services"
+services: ["Product Design", "Web Application Development"]
+highlights:
+  - "One Today screen showing status counts, crew timeline and unassigned work"
+  - "Role-based access for office staff and crews"
+  - "Responsive crew view that works on any phone"
+gallery:
+  - src: "/images/work/service-operations-dashboard-job.webp"
+    alt: "Job detail screen showing status, customer and address cards, a map, status history and crew assignment."
+    caption: "Job records bring customer details, location, history and crew together."
+    kind: "desktop"
+  - src: "/images/work/service-operations-dashboard-mobile.webp"
+    alt: "Crew mobile view of today's jobs with time, address, job type and status."
+    caption: "Crews see only their own jobs, with one-tap navigation."
+    kind: "mobile"
+featured: true
+order: 2
+---
+
+## Overview
+
+This concept explores a common next step for growing service businesses: replacing the spreadsheet, whiteboard and group chat that run daily operations with a purpose-built internal tool. We designed and built a working prototype of a dispatch dashboard for a fictional home-services company with several crews.
+
+## The Challenge
+
+In many service businesses, the daily schedule lives in several places at once — a shared spreadsheet, a calendar, a whiteboard in the office and messages between the office and crews. That works with two crews. With five or six, it starts to break: jobs get double-booked, unassigned work goes unnoticed, and nobody has a reliable picture of the day without phoning around.
+
+The goal was a tool the office manager could keep open all day that answers, at a glance: what is happening today, who is doing it, and what still needs attention.
+
+## Approach
+
+We began by mapping the real workflow rather than the ideal one: how jobs arrive, who assigns them, what changes during the day and what information crews need on site. That produced a deliberately narrow first release focused on one screen — **Today** — instead of a sprawling feature list.
+
+Design decisions followed from that focus. Summary counts sit at the top so problems are visible immediately. A timeline view shows each crew's day across working hours, making gaps and overlaps obvious. Unassigned jobs get their own list with a one-click assign action, because unassigned work is the thing most likely to be forgotten.
+
+## Solution
+
+The prototype is a Next.js application with a PostgreSQL database behind it. It includes:
+
+- **A Today view** with job counts by status, a crew timeline and a queue of unassigned jobs.
+- **Job records** with customer details, address, job type, notes and status history.
+- **Crew scheduling** with drag-to-reschedule on the timeline and conflict warnings for overlapping jobs.
+- **Role-based access**, so office staff can manage the schedule while crews see only their own jobs on mobile.
+- **A clean data model** designed to support later additions such as invoicing, customer notifications or reporting.
+
+## Technology
+
+Next.js and React with TypeScript on the front end, server-side data access to a PostgreSQL database, and Tailwind CSS for a consistent component system. The interface is responsive, so crews can use the same application on their phones.
+
+## Result
+
+As a concept, this project has no real-world usage data, and we do not present any. The outcome is a working, well-structured prototype that demonstrates how we approach internal tools: understand the actual workflow first, ship one genuinely useful screen, and design the data model so the application can grow with the business.

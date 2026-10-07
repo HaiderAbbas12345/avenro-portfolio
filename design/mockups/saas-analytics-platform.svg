@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>SaaS analytics platform concept</title>
+  <defs>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d4aff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#6d4aff" stop-opacity="0.01"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="1600" height="1000" fill="#fafaf8"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="240" height="1000" fill="#ffffff"/>
+  <line x1="240.5" y1="0" x2="240.5" y2="1000" stroke="#e4e4de"/>
+  <rect x="28" y="28" width="28" height="28" rx="8" fill="#6d4aff"/>
+  <path d="M35 49 V42 M42 49 V36 M49 49 V40" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="68" y="48" font-size="15" font-weight="650" fill="#111213">Lumen Metrics</text>
+
+  <text x="28" y="100" font-size="11" font-weight="600" fill="#686c73" letter-spacing="0.8">ANALYTICS</text>
+  <rect x="16" y="114" width="208" height="36" rx="8" fill="#6d4aff" fill-opacity="0.08"/>
+  <g fill="none" stroke="#6d4aff" stroke-width="1.6" stroke-linejoin="round">
+    <rect x="32" y="124" width="7" height="7" rx="1.5"/>
+    <rect x="41" y="124" width="7" height="7" rx="1.5"/>
+    <rect x="32" y="133" width="7" height="7" rx="1.5"/>
+    <rect x="41" y="133" width="7" height="7" rx="1.5"/>
+  </g>
+  <text x="60" y="137" font-size="14" font-weight="600" fill="#6d4aff">Overview</text>
+  <g fill="none" stroke="#686c73" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- reports -->
+    <path d="M34 164 h9 l4 4 v12 h-13 Z M43 164 v4 h4 M37 172 h7 M37 176 h5"/>
+    <!-- customers -->
+    <circle cx="40" cy="208" r="3.5"/>
+    <path d="M33 220 c0 -4.5 3 -7 7 -7 s7 2.5 7 7"/>
+    <!-- revenue -->
+    <circle cx="40" cy="254" r="8"/>
+    <path d="M42.5 250.5 h-3.5 a1.75 1.75 0 0 0 0 3.5 h2 a1.75 1.75 0 0 1 0 3.5 h-3.5 M40 248.5 v1.5 M40 258 v1.5"/>
+    <!-- settings -->
+    <circle cx="40" cy="300" r="3"/>
+    <circle cx="40" cy="300" r="7.5" stroke-dasharray="3.2 2.6"/>
+  </g>
+  <g font-size="14" fill="#4f535a">
+    <text x="60" y="177">Reports</text>
+    <text x="60" y="219">Customers</text>
+    <text x="60" y="259">Revenue</text>
+    <text x="60" y="305">Settings</text>
+  </g>
+  <line x1="28" y1="924" x2="212" y2="924" stroke="#e4e4de"/>
+  <circle cx="42" cy="958" r="14" fill="#e4e4de"/>
+  <text x="42" y="962" font-size="11" font-weight="600" fill="#4f535a" text-anchor="middle">AK</text>
+  <rect x="66" y="948" width="84" height="8" rx="4" fill="#e4e4de"/>
+  <rect x="66" y="962" width="56" height="7" rx="3.5" fill="#f2f2ee"/>
+
+  <!-- Header -->
+  <rect x="241" y="0" width="1359" height="88" fill="#fafaf8"/>
+  <text x="280" y="54" font-size="26" font-weight="650" fill="#111213" letter-spacing="-0.5">Overview</text>
+  <rect x="1238.5" y="26.5" width="173" height="35" rx="17.5" fill="#ffffff" stroke="#e4e4de"/>
+  <rect x="1256" y="37" width="14" height="13" rx="2.5" fill="none" stroke="#686c73" stroke-width="1.4"/>
+  <line x1="1256" y1="41.5" x2="1270" y2="41.5" stroke="#686c73" stroke-width="1.4"/>
+  <text x="1280" y="48.5" font-size="13.5" font-weight="500" fill="#111213">Last 30 days</text>
+  <path d="M1383 41 l4 4 l4 -4" fill="none" stroke="#686c73" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1424" y="26" width="136" height="36" rx="9" fill="#6d4aff"/>
+  <path d="M1452 36 v12 M1447 43 l5 5 l5 -5 M1446 52 h12" fill="none" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1468" y="48.5" font-size="13.5" font-weight="600" fill="#ffffff">Export</text>
+  <line x1="241" y1="88.5" x2="1600" y2="88.5" stroke="#e4e4de"/>
+
+  <!-- KPI cards -->
+  <g>
+    <rect x="280.5" y="112.5" width="304" height="115" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+    <text x="304" y="146" font-size="13" fill="#686c73">MRR</text>
+    <text x="304" y="196" font-size="32" font-weight="650" fill="#111213" letter-spacing="-0.6">$48.2k</text>
+    <rect x="490" y="132" width="70" height="22" rx="11" fill="#6d4aff" fill-opacity="0.1"/>
+    <text x="525" y="147" font-size="12" font-weight="600" fill="#6d4aff" text-anchor="middle">+9.6%</text>
+    <path d="M460 202 L476 196 L492 198 L508 188 L524 190 L540 180 L560 176" fill="none" stroke="#6d4aff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="605.5" y="112.5" width="304" height="115" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+    <text x="629" y="146" font-size="13" fill="#686c73">Active accounts</text>
+    <text x="629" y="196" font-size="32" font-weight="650" fill="#111213" letter-spacing="-0.6">1,284</text>
+    <rect x="815" y="132" width="70" height="22" rx="11" fill="#6d4aff" fill-opacity="0.1"/>
+    <text x="850" y="147" font-size="12" font-weight="600" fill="#6d4aff" text-anchor="middle">+64</text>
+    <path d="M785 200 L801 198 L817 192 L833 194 L849 186 L865 184 L885 178" fill="none" stroke="#6d4aff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="930.5" y="112.5" width="304" height="115" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+    <text x="954" y="146" font-size="13" fill="#686c73">Churn</text>
+    <text x="954" y="196" font-size="32" font-weight="650" fill="#111213" letter-spacing="-0.6">2.1%</text>
+    <rect x="1140" y="132" width="70" height="22" rx="11" fill="#f2f2ee"/>
+    <text x="1175" y="147" font-size="12" font-weight="600" fill="#4f535a" text-anchor="middle">−0.3 pt</text>
+    <path d="M1110 180 L1126 184 L1142 182 L1158 190 L1174 188 L1190 196 L1210 198" fill="none" stroke="#686c73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="1255.5" y="112.5" width="304" height="115" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+    <text x="1279" y="146" font-size="13" fill="#686c73">Net retention</text>
+    <text x="1279" y="196" font-size="32" font-weight="650" fill="#111213" letter-spacing="-0.6">108%</text>
+    <rect x="1440" y="186" width="96" height="6" rx="3" fill="#f2f2ee"/>
+    <rect x="1440" y="186" width="74" height="6" rx="3" fill="#6d4aff"/>
+    <text x="1536" y="176" font-size="11.5" fill="#686c73" text-anchor="end">Goal 110%</text>
+  </g>
+
+  <!-- MRR trend chart -->
+  <rect x="280.5" y="250.5" width="779" height="359" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="304" y="288" font-size="16" font-weight="650" fill="#111213">MRR growth</text>
+  <text x="304" y="308" font-size="12.5" fill="#686c73">Monthly recurring revenue</text>
+  <g font-size="12" fill="#686c73">
+    <rect x="876" y="276" width="14" height="3" rx="1.5" fill="#6d4aff"/>
+    <text x="896" y="282">This period</text>
+    <line x1="972" y1="277.5" x2="986" y2="277.5" stroke="#c9ccd1" stroke-width="2" stroke-dasharray="3 3"/>
+    <text x="992" y="282">Previous</text>
+  </g>
+  <!-- grid -->
+  <g stroke="#f2f2ee">
+    <line x1="340" y1="340" x2="1036" y2="340"/>
+    <line x1="340" y1="395" x2="1036" y2="395"/>
+    <line x1="340" y1="450" x2="1036" y2="450"/>
+    <line x1="340" y1="505" x2="1036" y2="505"/>
+  </g>
+  <line x1="340" y1="560" x2="1036" y2="560" stroke="#e4e4de"/>
+  <g font-size="11" fill="#686c73" text-anchor="end">
+    <text x="328" y="344">60k</text>
+    <text x="328" y="399">45k</text>
+    <text x="328" y="454">30k</text>
+    <text x="328" y="509">15k</text>
+    <text x="328" y="564">0</text>
+  </g>
+  <g font-size="11.5" fill="#686c73" text-anchor="middle">
+    <text x="360" y="584">Jan</text>
+    <text x="490" y="584">Feb</text>
+    <text x="620" y="584">Mar</text>
+    <text x="750" y="584">Apr</text>
+    <text x="880" y="584">May</text>
+    <text x="1010" y="584">Jun</text>
+  </g>
+  <!-- previous period -->
+  <path d="M360 470 C403 468 447 466 490 464 C533 462 577 461 620 458 C663 455 707 452 750 450 C793 448 837 446 880 444 C923 442 967 440 1010 438" fill="none" stroke="#c9ccd1" stroke-width="2" stroke-dasharray="4 4"/>
+  <!-- area -->
+  <path d="M360 446 C403 442 447 437 490 435 C533 433 577 432 620 428 C663 424 707 416 750 413 C793 410 837 404 880 399 C923 394 967 388 1010 383 L1010 560 L360 560 Z" fill="url(#area)"/>
+  <path d="M360 446 C403 442 447 437 490 435 C533 433 577 432 620 428 C663 424 707 416 750 413 C793 410 837 404 880 399 C923 394 967 388 1010 383" fill="none" stroke="#6d4aff" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="1010" y1="383" x2="1010" y2="560" stroke="#6d4aff" stroke-opacity="0.3" stroke-dasharray="3 3"/>
+  <circle cx="1010" cy="383" r="5.5" fill="#ffffff" stroke="#6d4aff" stroke-width="2.5"/>
+  <rect x="924" y="338" width="72" height="28" rx="7" fill="#111213"/>
+  <text x="960" y="356.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">$48.2k</text>
+
+  <!-- Revenue by plan -->
+  <rect x="1080.5" y="250.5" width="479" height="359" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="1104" y="288" font-size="16" font-weight="650" fill="#111213">Revenue by plan</text>
+  <text x="1104" y="308" font-size="12.5" fill="#686c73">Share of MRR</text>
+  <g stroke="#f2f2ee">
+    <line x1="1104" y1="360" x2="1536" y2="360"/>
+    <line x1="1104" y1="427" x2="1536" y2="427"/>
+    <line x1="1104" y1="494" x2="1536" y2="494"/>
+  </g>
+  <line x1="1104" y1="560" x2="1536" y2="560" stroke="#e4e4de"/>
+  <rect x="1150" y="478" width="80" height="82" rx="6" fill="#6d4aff" fill-opacity="0.3"/>
+  <rect x="1280" y="372" width="80" height="188" rx="6" fill="#6d4aff"/>
+  <rect x="1410" y="418" width="80" height="142" rx="6" fill="#6d4aff" fill-opacity="0.6"/>
+  <g font-size="13" font-weight="600" fill="#111213" text-anchor="middle">
+    <text x="1190" y="468">$9.4k</text>
+    <text x="1320" y="362">$22.1k</text>
+    <text x="1450" y="408">$16.7k</text>
+  </g>
+  <g font-size="12" fill="#686c73" text-anchor="middle">
+    <text x="1190" y="584">Starter</text>
+    <text x="1320" y="584">Growth</text>
+    <text x="1450" y="584">Scale</text>
+  </g>
+
+  <!-- Top accounts -->
+  <rect x="280.5" y="632.5" width="1279" height="339" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="304" y="670" font-size="16" font-weight="650" fill="#111213">Top accounts</text>
+  <text x="1536" y="670" font-size="13" font-weight="600" fill="#6d4aff" text-anchor="end">View all</text>
+  <g font-size="11.5" font-weight="600" fill="#686c73" letter-spacing="0.5">
+    <text x="304" y="706">ACCOUNT</text>
+    <text x="760" y="706">PLAN</text>
+    <text x="960" y="706">SEATS</text>
+    <text x="1140" y="706">TREND</text>
+    <text x="1536" y="706" text-anchor="end">MRR</text>
+  </g>
+  <line x1="281" y1="720.5" x2="1559" y2="720.5" stroke="#e4e4de"/>
+
+  <!-- row 1 -->
+  <rect x="304" y="732" width="28" height="28" rx="7" fill="#6d4aff" fill-opacity="0.14"/>
+  <rect x="346" y="737" width="150" height="8" rx="4" fill="#4f535a" fill-opacity="0.75"/>
+  <rect x="346" y="750" width="90" height="6" rx="3" fill="#e4e4de"/>
+  <rect x="760" y="735" width="58" height="22" rx="11" fill="#6d4aff"/>
+  <text x="789" y="750" font-size="11.5" font-weight="600" fill="#ffffff" text-anchor="middle">Scale</text>
+  <text x="960" y="751" font-size="13.5" fill="#111213">142</text>
+  <path d="M1140 752 L1160 748 L1180 750 L1200 742 L1220 740 L1240 736" fill="none" stroke="#6d4aff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1536" y="751" font-size="13.5" font-weight="600" fill="#111213" text-anchor="end">$3,480</text>
+  <line x1="304" y1="768.5" x2="1536" y2="768.5" stroke="#f2f2ee"/>
+
+  <!-- row 2 -->
+  <rect x="304" y="780" width="28" height="28" rx="7" fill="#f2f2ee"/>
+  <rect x="346" y="785" width="124" height="8" rx="4" fill="#4f535a" fill-opacity="0.75"/>
+  <rect x="346" y="798" width="100" height="6" rx="3" fill="#e4e4de"/>
+  <rect x="760" y="783" width="58" height="22" rx="11" fill="#6d4aff"/>
+  <text x="789" y="798" font-size="11.5" font-weight="600" fill="#ffffff" text-anchor="middle">Scale</text>
+  <text x="960" y="799" font-size="13.5" fill="#111213">118</text>
+  <path d="M1140 796 L1160 798 L1180 792 L1200 794 L1220 788 L1240 786" fill="none" stroke="#6d4aff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1536" y="799" font-size="13.5" font-weight="600" fill="#111213" text-anchor="end">$2,960</text>
+  <line x1="304" y1="816.5" x2="1536" y2="816.5" stroke="#f2f2ee"/>
+
+  <!-- row 3 -->
+  <rect x="304" y="828" width="28" height="28" rx="7" fill="#6d4aff" fill-opacity="0.14"/>
+  <rect x="346" y="833" width="168" height="8" rx="4" fill="#4f535a" fill-opacity="0.75"/>
+  <rect x="346" y="846" width="80" height="6" rx="3" fill="#e4e4de"/>
+  <rect x="760" y="831" width="66" height="22" rx="11" fill="#6d4aff" fill-opacity="0.12"/>
+  <text x="793" y="846" font-size="11.5" font-weight="600" fill="#6d4aff" text-anchor="middle">Growth</text>
+  <text x="960" y="847" font-size="13.5" fill="#111213">64</text>
+  <path d="M1140 846 L1160 844 L1180 846 L1200 840 L1220 838 L1240 832" fill="none" stroke="#6d4aff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1536" y="847" font-size="13.5" font-weight="600" fill="#111213" text-anchor="end">$1,920</text>
+  <line x1="304" y1="864.5" x2="1536" y2="864.5" stroke="#f2f2ee"/>
+
+  <!-- row 4 -->
+  <rect x="304" y="876" width="28" height="28" rx="7" fill="#f2f2ee"/>
+  <rect x="346" y="881" width="112" height="8" rx="4" fill="#4f535a" fill-opacity="0.75"/>
+  <rect x="346" y="894" width="96" height="6" rx="3" fill="#e4e4de"/>
+  <rect x="760" y="879" width="66" height="22" rx="11" fill="#6d4aff" fill-opacity="0.12"/>
+  <text x="793" y="894" font-size="11.5" font-weight="600" fill="#6d4aff" text-anchor="middle">Growth</text>
+  <text x="960" y="895" font-size="13.5" fill="#111213">51</text>
+  <path d="M1140 888 L1160 890 L1180 892 L1200 888 L1220 890 L1240 886" fill="none" stroke="#686c73" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1536" y="895" font-size="13.5" font-weight="600" fill="#111213" text-anchor="end">$1,530</text>
+  <line x1="304" y1="912.5" x2="1536" y2="912.5" stroke="#f2f2ee"/>
+
+  <!-- row 5 -->
+  <rect x="304" y="924" width="28" height="28" rx="7" fill="#6d4aff" fill-opacity="0.14"/>
+  <rect x="346" y="929" width="140" height="8" rx="4" fill="#4f535a" fill-opacity="0.75"/>
+  <rect x="346" y="942" width="70" height="6" rx="3" fill="#e4e4de"/>
+  <rect x="760" y="927" width="62" height="22" rx="11" fill="#f2f2ee"/>
+  <text x="791" y="942" font-size="11.5" font-weight="600" fill="#4f535a" text-anchor="middle">Starter</text>
+  <text x="960" y="943" font-size="13.5" fill="#111213">22</text>
+  <path d="M1140 944 L1160 940 L1180 942 L1200 936 L1220 934 L1240 930" fill="none" stroke="#6d4aff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1536" y="943" font-size="13.5" font-weight="600" fill="#111213" text-anchor="end">$880</text>
+</svg>

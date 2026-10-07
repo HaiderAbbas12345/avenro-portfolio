@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Service operations job detail concept</title>
+  <defs>
+    <clipPath id="map">
+      <rect x="620" y="224" width="506" height="244" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="1600" height="1000" fill="#ffffff"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="220" height="1000" fill="#fafaf8"/>
+  <line x1="220.5" y1="0" x2="220.5" y2="1000" stroke="#e4e4de"/>
+  <rect x="28" y="28" width="28" height="28" rx="8" fill="#2b45c4"/>
+  <path d="M35 44 L42 37 L49 44 M38 44 V49 H46 V44" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="68" y="48" font-size="15" font-weight="650" fill="#111213">Dispatch</text>
+
+  <text x="28" y="96" font-size="11" font-weight="600" fill="#686c73" letter-spacing="0.8">WORKSPACE</text>
+  <!-- active: Jobs -->
+  <rect x="16" y="190" width="188" height="36" rx="8" fill="#2b45c4" fill-opacity="0.08"/>
+  <g fill="none" stroke="#2b45c4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="32" y="202" width="16" height="13" rx="3"/>
+    <path d="M37 202 V199 H43 V202"/>
+  </g>
+  <g fill="none" stroke="#686c73" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- today -->
+    <rect x="32" y="120" width="16" height="16" rx="4"/>
+    <!-- schedule -->
+    <rect x="32" y="160" width="16" height="16" rx="3"/>
+    <line x1="32" y1="166" x2="48" y2="166"/>
+    <!-- crews -->
+    <circle cx="37" cy="243" r="3"/>
+    <circle cx="44" cy="244" r="2.5"/>
+    <path d="M31.5 255 c0 -4 2.5 -6 5.5 -6 s5.5 2 5.5 6 M42 249.5 c3 0 5.5 1.5 5.5 5.5"/>
+    <!-- customers -->
+    <circle cx="40" cy="283" r="3.5"/>
+    <path d="M33 295 c0 -4.5 3 -7 7 -7 s7 2.5 7 7"/>
+    <!-- reports -->
+    <line x1="34" y1="335" x2="34" y2="328"/>
+    <line x1="40" y1="335" x2="40" y2="322"/>
+    <line x1="46" y1="335" x2="46" y2="325"/>
+  </g>
+  <circle cx="40" cy="128" r="2.5" fill="#686c73"/>
+  <g font-size="14" fill="#4f535a">
+    <text x="60" y="133">Today</text>
+    <text x="60" y="173">Schedule</text>
+    <text x="60" y="253">Crews</text>
+    <text x="60" y="293">Customers</text>
+    <text x="60" y="333">Reports</text>
+  </g>
+  <text x="60" y="213" font-size="14" font-weight="600" fill="#2b45c4">Jobs</text>
+  <line x1="28" y1="924" x2="196" y2="924" stroke="#e4e4de"/>
+  <circle cx="42" cy="958" r="14" fill="#e4e4de"/>
+  <rect x="66" y="948" width="84" height="8" rx="4" fill="#e4e4de"/>
+  <rect x="66" y="962" width="56" height="7" rx="3.5" fill="#f2f2ee"/>
+
+  <!-- Top bar -->
+  <text x="260" y="47" font-size="14" fill="#686c73">Jobs</text>
+  <path d="M297 38 l4 4 -4 4" fill="none" stroke="#686c73" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="312" y="47" font-size="14" font-weight="500" fill="#111213">Job #2041</text>
+  <rect x="1200.5" y="22.5" width="279" height="35" rx="17.5" fill="#fafaf8" stroke="#e4e4de"/>
+  <circle cx="1222" cy="39" r="5.5" fill="none" stroke="#686c73" stroke-width="1.5"/>
+  <line x1="1226" y1="43" x2="1230" y2="47" stroke="#686c73" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="1240" y="45" font-size="13.5" fill="#686c73">Search jobs, customers</text>
+  <circle cx="1526" cy="40" r="18" fill="#e4e4de"/>
+  <text x="1526" y="44.5" font-size="12" font-weight="600" fill="#4f535a" text-anchor="middle">RM</text>
+  <line x1="221" y1="80.5" x2="1600" y2="80.5" stroke="#e4e4de"/>
+
+  <!-- Job header -->
+  <text x="260" y="140" font-size="26" font-weight="650" fill="#111213" letter-spacing="-0.5">Gutter repair — Job #2041</text>
+  <rect x="604" y="117" width="104" height="28" rx="14" fill="#2b45c4" fill-opacity="0.1"/>
+  <circle cx="620" cy="131" r="4" fill="#2b45c4"/>
+  <text x="631" y="135.5" font-size="13" font-weight="600" fill="#2b45c4">In progress</text>
+  <text x="260" y="170" font-size="14" fill="#686c73">Tue, Oct 7 · 10:30 – 1:00 · Est. 2.5 hrs · Crew A</text>
+  <rect x="1300.5" y="116.5" width="113" height="39" rx="8" fill="#ffffff" stroke="#d6d6cf"/>
+  <text x="1357" y="141" font-size="14" font-weight="600" fill="#111213" text-anchor="middle">Reschedule</text>
+  <rect x="1426" y="116" width="134" height="40" rx="8" fill="#2b45c4"/>
+  <text x="1493" y="141" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">Mark complete</text>
+
+  <!-- Address card -->
+  <rect x="260.5" y="200.5" width="889" height="291" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="284" y="236" font-size="16" font-weight="650" fill="#111213">Site address</text>
+  <rect x="284" y="260" width="236" height="10" rx="5" fill="#e4e4de"/>
+  <rect x="284" y="280" width="168" height="10" rx="5" fill="#e4e4de"/>
+  <text x="284" y="330" font-size="12" font-weight="600" fill="#686c73" letter-spacing="0.6">ACCESS</text>
+  <text x="284" y="352" font-size="14" fill="#4f535a">Side gate, dog on site</text>
+  <text x="284" y="392" font-size="12" font-weight="600" fill="#686c73" letter-spacing="0.6">PROPERTY</text>
+  <text x="284" y="414" font-size="14" fill="#4f535a">Two-storey, approx. 140 ft gutters</text>
+  <text x="284" y="464" font-size="13" font-weight="600" fill="#2b45c4">Get directions →</text>
+
+  <!-- Map -->
+  <rect x="620" y="224" width="506" height="244" rx="10" fill="#f2f2ee"/>
+  <g clip-path="url(#map)">
+    <g fill="#e9e9e3">
+      <rect x="640" y="240" width="110" height="70" rx="6"/>
+      <rect x="772" y="240" width="140" height="70" rx="6"/>
+      <rect x="640" y="334" width="110" height="120" rx="6"/>
+      <rect x="935" y="240" width="200" height="70" rx="6"/>
+      <rect x="935" y="334" width="96" height="58" rx="6"/>
+      <rect x="1052" y="334" width="90" height="140" rx="6"/>
+      <rect x="935" y="414" width="96" height="60" rx="6"/>
+    </g>
+    <rect x="772" y="334" width="140" height="120" rx="6" fill="#e3e8e1"/>
+    <g stroke="#ffffff" stroke-linecap="round">
+      <line x1="600" y1="322" x2="1140" y2="322" stroke-width="14"/>
+      <line x1="761" y1="210" x2="761" y2="480" stroke-width="10"/>
+      <line x1="924" y1="210" x2="924" y2="480" stroke-width="10"/>
+      <line x1="1042" y1="322" x2="1042" y2="480" stroke-width="7"/>
+      <line x1="924" y1="403" x2="1042" y2="403" stroke-width="7"/>
+    </g>
+    <path d="M761 480 V322 H858 V378" fill="none" stroke="#2b45c4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 7" stroke-opacity="0.7"/>
+    <circle cx="761" cy="452" r="7" fill="#ffffff" stroke="#2b45c4" stroke-width="2.5"/>
+  </g>
+  <ellipse cx="858" cy="392" rx="10" ry="3.5" fill="#111213" fill-opacity="0.12"/>
+  <path d="M858 392 c-3 -6 -16 -18 -16 -30 a16 16 0 0 1 32 0 c0 12 -13 24 -16 30 Z" fill="#2b45c4"/>
+  <circle cx="858" cy="362" r="6" fill="#ffffff"/>
+  <rect x="1046" y="236" width="68" height="26" rx="13" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="1080" y="253" font-size="12" font-weight="600" fill="#4f535a" text-anchor="middle">6 min</text>
+
+  <!-- Status history -->
+  <rect x="260.5" y="515.5" width="433" height="445" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="284" y="552" font-size="16" font-weight="650" fill="#111213">Status history</text>
+  <line x1="292" y1="590" x2="292" y2="818" stroke="#e4e4de" stroke-width="2"/>
+  <g>
+    <circle cx="292" cy="590" r="9" fill="#2b45c4" fill-opacity="0.15"/>
+    <circle cx="292" cy="590" r="5" fill="#2b45c4"/>
+    <text x="316" y="595" font-size="14" font-weight="600" fill="#111213">In progress</text>
+    <text x="316" y="615" font-size="12.5" fill="#686c73">Crew A started the job</text>
+    <text x="670" y="595" font-size="12.5" fill="#686c73" text-anchor="end">10:42 am</text>
+
+    <circle cx="292" cy="666" r="5" fill="#ffffff" stroke="#2b45c4" stroke-width="2"/>
+    <text x="316" y="671" font-size="14" font-weight="600" fill="#111213">On the way</text>
+    <text x="316" y="691" font-size="12.5" fill="#686c73">Customer notified by text</text>
+    <text x="670" y="671" font-size="12.5" fill="#686c73" text-anchor="end">10:05 am</text>
+
+    <circle cx="292" cy="742" r="5" fill="#ffffff" stroke="#c9ccd1" stroke-width="2"/>
+    <text x="316" y="747" font-size="14" font-weight="600" fill="#111213">Crew assigned</text>
+    <text x="316" y="767" font-size="12.5" fill="#686c73">Assigned to Crew A</text>
+    <text x="670" y="747" font-size="12.5" fill="#686c73" text-anchor="end">Mon 4:12 pm</text>
+
+    <circle cx="292" cy="818" r="5" fill="#ffffff" stroke="#c9ccd1" stroke-width="2"/>
+    <text x="316" y="823" font-size="14" font-weight="600" fill="#111213">Job booked</text>
+    <text x="316" y="843" font-size="12.5" fill="#686c73">Created from web request</text>
+    <text x="670" y="823" font-size="12.5" fill="#686c73" text-anchor="end">Mon 2:30 pm</text>
+  </g>
+  <line x1="284" y1="880.5" x2="670" y2="880.5" stroke="#e4e4de"/>
+  <text x="284" y="920" font-size="13" font-weight="600" fill="#2b45c4">View full activity →</text>
+
+  <!-- Notes -->
+  <rect x="716.5" y="515.5" width="433" height="445" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="740" y="552" font-size="16" font-weight="650" fill="#111213">Notes</text>
+  <text x="1126" y="552" font-size="13" font-weight="600" fill="#2b45c4" text-anchor="end">Add note</text>
+  <g>
+    <rect x="740.5" y="576.5" width="385" height="115" rx="10" fill="#fafaf8" stroke="#e4e4de"/>
+    <circle cx="772" cy="608" r="14" fill="#e4e4de"/>
+    <text x="772" y="612" font-size="11" font-weight="600" fill="#4f535a" text-anchor="middle">RM</text>
+    <text x="796" y="605" font-size="13.5" font-weight="600" fill="#111213">Dispatcher</text>
+    <text x="796" y="622" font-size="12" fill="#686c73">Mon 4:15 pm</text>
+    <rect x="760" y="642" width="340" height="8" rx="4" fill="#e4e4de"/>
+    <rect x="760" y="660" width="248" height="8" rx="4" fill="#e4e4de"/>
+
+    <rect x="740.5" y="707.5" width="385" height="133" rx="10" fill="#fafaf8" stroke="#e4e4de"/>
+    <circle cx="772" cy="739" r="14" fill="#2b45c4" fill-opacity="0.12"/>
+    <text x="772" y="743" font-size="11" font-weight="600" fill="#2b45c4" text-anchor="middle">JT</text>
+    <text x="796" y="736" font-size="13.5" font-weight="600" fill="#111213">Crew A</text>
+    <text x="796" y="753" font-size="12" fill="#686c73">10:48 am</text>
+    <rect x="760" y="773" width="320" height="8" rx="4" fill="#e4e4de"/>
+    <rect x="760" y="791" width="200" height="8" rx="4" fill="#e4e4de"/>
+    <rect x="760" y="808" width="44" height="20" rx="4" fill="#e9e9e3"/>
+    <rect x="810" y="808" width="44" height="20" rx="4" fill="#e9e9e3"/>
+    <text x="864" y="822.5" font-size="12" fill="#686c73">2 photos</text>
+  </g>
+  <rect x="740.5" y="896.5" width="385" height="41" rx="8" fill="#ffffff" stroke="#d6d6cf"/>
+  <text x="756" y="922" font-size="13.5" fill="#686c73">Add a note for the crew…</text>
+
+  <!-- Customer -->
+  <rect x="1174.5" y="200.5" width="385" height="219" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="1198" y="236" font-size="16" font-weight="650" fill="#111213">Customer</text>
+  <circle cx="1220" cy="278" r="22" fill="#e4e4de"/>
+  <text x="1220" y="283" font-size="13" font-weight="600" fill="#4f535a" text-anchor="middle">N</text>
+  <text x="1254" y="274" font-size="15" font-weight="600" fill="#111213">Nguyen residence</text>
+  <text x="1254" y="293" font-size="12.5" fill="#686c73">3 previous jobs</text>
+  <path d="M1199 320 c0 7 5.5 12.5 12.5 12.5 l2.5 -3 -3.5 -2.5 -2 1.5 c-2 -1 -3.5 -2.5 -4.5 -4.5 l1.5 -2 -2.5 -3.5 Z" fill="none" stroke="#686c73" stroke-width="1.4" stroke-linejoin="round"/>
+  <text x="1224" y="331" font-size="13.5" fill="#4f535a">(555) 014-7731</text>
+  <rect x="1198" y="344" width="16" height="12" rx="2.5" fill="none" stroke="#686c73" stroke-width="1.4"/>
+  <path d="M1198.5 345 l7.5 6 7.5 -6" fill="none" stroke="#686c73" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="1224" y="346" width="150" height="8" rx="4" fill="#e4e4de"/>
+  <rect x="1198.5" y="370.5" width="161" height="33" rx="8" fill="#ffffff" stroke="#d6d6cf"/>
+  <text x="1279" y="392" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">Call</text>
+  <rect x="1374.5" y="370.5" width="161" height="33" rx="8" fill="#ffffff" stroke="#d6d6cf"/>
+  <text x="1455" y="392" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">Message</text>
+
+  <!-- Crew -->
+  <rect x="1174.5" y="435.5" width="385" height="231" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="1198" y="471" font-size="16" font-weight="650" fill="#111213">Crew assignment</text>
+  <text x="1536" y="471" font-size="13" font-weight="600" fill="#2b45c4" text-anchor="end">Change</text>
+  <g stroke="#ffffff" stroke-width="2.5">
+    <circle cx="1216" cy="510" r="17" fill="#2b45c4" fill-opacity="0.15"/>
+    <circle cx="1240" cy="510" r="17" fill="#e4e4de"/>
+    <circle cx="1264" cy="510" r="17" fill="#f2f2ee"/>
+  </g>
+  <g font-size="11" font-weight="600" text-anchor="middle">
+    <text x="1216" y="514" fill="#2b45c4">JT</text>
+    <text x="1240" y="514" fill="#4f535a">AK</text>
+    <text x="1264" y="514" fill="#4f535a">DL</text>
+  </g>
+  <text x="1292" y="507" font-size="14" font-weight="600" fill="#111213">Crew A</text>
+  <text x="1292" y="524" font-size="12.5" fill="#686c73">3 people · Truck 2</text>
+  <line x1="1198" y1="548.5" x2="1536" y2="548.5" stroke="#e4e4de"/>
+  <g>
+    <circle cx="1212" cy="578" r="14" fill="#2b45c4" fill-opacity="0.12"/>
+    <text x="1212" y="582" font-size="10.5" font-weight="600" fill="#2b45c4" text-anchor="middle">JT</text>
+    <rect x="1236" y="574" width="96" height="8" rx="4" fill="#e4e4de"/>
+    <rect x="1494" y="568" width="42" height="20" rx="10" fill="#2b45c4" fill-opacity="0.1"/>
+    <text x="1515" y="582" font-size="11" font-weight="600" fill="#2b45c4" text-anchor="middle">Lead</text>
+
+    <circle cx="1212" cy="628" r="14" fill="#e4e4de"/>
+    <text x="1212" y="632" font-size="10.5" font-weight="600" fill="#4f535a" text-anchor="middle">AK</text>
+    <rect x="1236" y="624" width="80" height="8" rx="4" fill="#e4e4de"/>
+    <text x="1536" y="632" font-size="12.5" fill="#686c73" text-anchor="end">On site</text>
+  </g>
+
+  <!-- Job details -->
+  <rect x="1174.5" y="682.5" width="385" height="278" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="1198" y="718" font-size="16" font-weight="650" fill="#111213">Job details</text>
+  <g font-size="13.5">
+    <text x="1198" y="760" fill="#686c73">Job type</text>
+    <text x="1536" y="760" fill="#111213" font-weight="500" text-anchor="end">Gutter repair</text>
+    <line x1="1198" y1="778.5" x2="1536" y2="778.5" stroke="#f2f2ee"/>
+    <text x="1198" y="806" fill="#686c73">Arrival window</text>
+    <text x="1536" y="806" fill="#111213" font-weight="500" text-anchor="end">10:30 – 11:00</text>
+    <line x1="1198" y1="824.5" x2="1536" y2="824.5" stroke="#f2f2ee"/>
+    <text x="1198" y="852" fill="#686c73">Estimate</text>
+    <text x="1536" y="852" fill="#111213" font-weight="500" text-anchor="end">2.5 hrs</text>
+    <line x1="1198" y1="870.5" x2="1536" y2="870.5" stroke="#f2f2ee"/>
+    <text x="1198" y="898" fill="#686c73">Priority</text>
+  </g>
+  <rect x="1474" y="884" width="62" height="20" rx="10" fill="#f2f2ee"/>
+  <text x="1505" y="898" font-size="11" font-weight="500" fill="#4f535a" text-anchor="middle">Normal</text>
+  <text x="1198" y="938" font-size="12" fill="#686c73">Updated 2 min ago</text>
+</svg>

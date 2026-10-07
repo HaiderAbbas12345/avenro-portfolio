@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>SaaS analytics reports concept</title>
+
+  <!-- Canvas -->
+  <rect width="1600" height="1000" fill="#fafaf8"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="240" height="1000" fill="#ffffff"/>
+  <line x1="240.5" y1="0" x2="240.5" y2="1000" stroke="#e4e4de"/>
+  <rect x="28" y="28" width="28" height="28" rx="8" fill="#6d4aff"/>
+  <path d="M35 49 V42 M42 49 V36 M49 49 V40" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="68" y="48" font-size="15" font-weight="650" fill="#111213">Lumen Metrics</text>
+
+  <text x="28" y="100" font-size="11" font-weight="600" fill="#686c73" letter-spacing="0.8">ANALYTICS</text>
+  <rect x="16" y="156" width="208" height="36" rx="8" fill="#6d4aff" fill-opacity="0.08"/>
+  <g fill="none" stroke="#686c73" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="32" y="124" width="7" height="7" rx="1.5"/>
+    <rect x="41" y="124" width="7" height="7" rx="1.5"/>
+    <rect x="32" y="133" width="7" height="7" rx="1.5"/>
+    <rect x="41" y="133" width="7" height="7" rx="1.5"/>
+    <circle cx="40" cy="208" r="3.5"/>
+    <path d="M33 220 c0 -4.5 3 -7 7 -7 s7 2.5 7 7"/>
+    <circle cx="40" cy="254" r="8"/>
+    <path d="M42.5 250.5 h-3.5 a1.75 1.75 0 0 0 0 3.5 h2 a1.75 1.75 0 0 1 0 3.5 h-3.5 M40 248.5 v1.5 M40 258 v1.5"/>
+    <circle cx="40" cy="300" r="3"/>
+    <circle cx="40" cy="300" r="7.5" stroke-dasharray="3.2 2.6"/>
+  </g>
+  <path d="M34 164 h9 l4 4 v12 h-13 Z M43 164 v4 h4 M37 172 h7 M37 176 h5" fill="none" stroke="#6d4aff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-size="14" fill="#4f535a">
+    <text x="60" y="137">Overview</text>
+    <text x="60" y="219">Customers</text>
+    <text x="60" y="259">Revenue</text>
+    <text x="60" y="305">Settings</text>
+  </g>
+  <text x="60" y="179" font-size="14" font-weight="600" fill="#6d4aff">Reports</text>
+  <line x1="28" y1="924" x2="212" y2="924" stroke="#e4e4de"/>
+  <circle cx="42" cy="958" r="14" fill="#e4e4de"/>
+  <text x="42" y="962" font-size="11" font-weight="600" fill="#4f535a" text-anchor="middle">AK</text>
+  <rect x="66" y="948" width="84" height="8" rx="4" fill="#e4e4de"/>
+  <rect x="66" y="962" width="56" height="7" rx="3.5" fill="#f2f2ee"/>
+
+  <!-- Saved reports list -->
+  <rect x="241" y="0" width="320" height="1000" fill="#ffffff"/>
+  <line x1="560.5" y1="0" x2="560.5" y2="1000" stroke="#e4e4de"/>
+  <text x="272" y="54" font-size="22" font-weight="650" fill="#111213" letter-spacing="-0.4">Reports</text>
+  <rect x="492" y="32" width="36" height="32" rx="8" fill="#f2f2ee"/>
+  <path d="M510 41 v14 M503 48 h14" stroke="#111213" stroke-width="1.7" stroke-linecap="round"/>
+  <rect x="272.5" y="84.5" width="255" height="35" rx="9" fill="#fafaf8" stroke="#e4e4de"/>
+  <circle cx="292" cy="101" r="5.5" fill="none" stroke="#686c73" stroke-width="1.5"/>
+  <line x1="296" y1="105" x2="300" y2="109" stroke="#686c73" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="310" y="107" font-size="13.5" fill="#686c73">Search reports</text>
+  <text x="272" y="156" font-size="11" font-weight="600" fill="#686c73" letter-spacing="0.8">SAVED</text>
+
+  <rect x="257" y="170" width="287" height="60" rx="10" fill="#6d4aff" fill-opacity="0.08"/>
+  <rect x="257" y="184" width="3" height="32" rx="1.5" fill="#6d4aff"/>
+  <rect x="274" y="186" width="28" height="28" rx="7" fill="#ffffff"/>
+  <path d="M282 207 v-6 M288 207 v-11 M294 207 v-8" stroke="#6d4aff" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="316" y="197" font-size="14" font-weight="600" fill="#111213">Retention by cohort</text>
+  <text x="316" y="215" font-size="12" fill="#686c73">Edited 2h ago</text>
+  <rect x="274" y="254" width="28" height="28" rx="7" fill="#f2f2ee"/>
+  <path d="M282 275 v-6 M288 275 v-11 M294 275 v-8" stroke="#686c73" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="316" y="265" font-size="14" font-weight="600" fill="#111213">MRR movement</text>
+  <text x="316" y="283" font-size="12" fill="#686c73">Weekly · Mondays</text>
+  <rect x="274" y="322" width="28" height="28" rx="7" fill="#f2f2ee"/>
+  <path d="M282 343 v-6 M288 343 v-11 M294 343 v-8" stroke="#686c73" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="316" y="333" font-size="14" font-weight="600" fill="#111213">Plan upgrades</text>
+  <text x="316" y="351" font-size="12" fill="#686c73">Edited yesterday</text>
+  <rect x="274" y="390" width="28" height="28" rx="7" fill="#f2f2ee"/>
+  <path d="M282 411 v-6 M288 411 v-11 M294 411 v-8" stroke="#686c73" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="316" y="401" font-size="14" font-weight="600" fill="#111213">Churn reasons</text>
+  <text x="316" y="419" font-size="12" fill="#686c73">Monthly · 1st</text>
+  <rect x="274" y="458" width="28" height="28" rx="7" fill="#f2f2ee"/>
+  <path d="M282 479 v-6 M288 479 v-11 M294 479 v-8" stroke="#686c73" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="316" y="469" font-size="14" font-weight="600" fill="#111213">Seat expansion</text>
+  <text x="316" y="487" font-size="12" fill="#686c73">Edited 5 days ago</text>
+  <line x1="272" y1="520" x2="528" y2="520" stroke="#e4e4de"/>
+  <text x="272" y="554" font-size="11" font-weight="600" fill="#686c73" letter-spacing="0.8">SHARED WITH ME</text>
+  <rect x="274" y="574" width="20" height="20" rx="5" fill="#f2f2ee"/>
+  <rect x="306" y="580" width="150" height="8" rx="4" fill="#e4e4de"/>
+  <rect x="274" y="618" width="20" height="20" rx="5" fill="#f2f2ee"/>
+  <rect x="306" y="624" width="120" height="8" rx="4" fill="#e4e4de"/>
+
+  <!-- Report header -->
+  <text x="600" y="50" font-size="13" fill="#686c73">Reports  /  Retention</text>
+  <text x="600" y="86" font-size="26" font-weight="650" fill="#111213" letter-spacing="-0.5">Retention by cohort</text>
+  <rect x="1260.5" y="56.5" width="123" height="39" rx="9" fill="#ffffff" stroke="#d6d6cf"/>
+  <path d="M1280 78 v5 h14 v-5 M1287 68 v11 M1283 72 l4 -4 l4 4" fill="none" stroke="#111213" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1306" y="81" font-size="14" font-weight="600" fill="#111213">Share</text>
+  <rect x="1396" y="56" width="164" height="40" rx="9" fill="#6d4aff"/>
+  <circle cx="1422" cy="76" r="7.5" fill="none" stroke="#ffffff" stroke-width="1.7"/>
+  <path d="M1422 71.5 v4.5 l3 2" fill="none" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1438" y="81" font-size="14" font-weight="600" fill="#ffffff">Schedule report</text>
+  <line x1="561" y1="120.5" x2="1600" y2="120.5" stroke="#e4e4de"/>
+
+  <!-- Filter chips -->
+  <text x="600" y="164" font-size="13" fill="#686c73">Filters</text>
+  <rect x="656" y="144" width="122" height="32" rx="16" fill="#6d4aff" fill-opacity="0.1"/>
+  <text x="672" y="165" font-size="13" fill="#4f535a">Plan:</text>
+  <text x="706" y="165" font-size="13" font-weight="600" fill="#6d4aff">Growth</text>
+  <path d="M760 156 l6 6 M766 156 l-6 6" stroke="#6d4aff" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="788" y="144" width="112" height="32" rx="16" fill="#6d4aff" fill-opacity="0.1"/>
+  <text x="804" y="165" font-size="13" fill="#4f535a">Region:</text>
+  <text x="854" y="165" font-size="13" font-weight="600" fill="#6d4aff">EU</text>
+  <path d="M880 156 l6 6 M886 156 l-6 6" stroke="#6d4aff" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="910.5" y="144.5" width="113" height="31" rx="15.5" fill="#ffffff" stroke="#d6d6cf" stroke-dasharray="4 3"/>
+  <path d="M929 160 h10 M934 155 v10" stroke="#4f535a" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="946" y="165" font-size="13" font-weight="500" fill="#4f535a">Add filter</text>
+
+  <!-- Segmented: metric -->
+  <rect x="1336.5" y="142.5" width="223" height="35" rx="9" fill="#ffffff" stroke="#e4e4de"/>
+  <rect x="1340" y="146" width="108" height="28" rx="7" fill="#f2f2ee"/>
+  <text x="1394" y="165" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">Accounts</text>
+  <text x="1503" y="165" font-size="13" font-weight="500" fill="#686c73" text-anchor="middle">Revenue</text>
+
+  <!-- Summary row -->
+  <rect x="600.5" y="200.5" width="300" height="79" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="624" y="230" font-size="12.5" fill="#686c73">Month 3 retention</text>
+  <text x="624" y="262" font-size="24" font-weight="650" fill="#111213" letter-spacing="-0.4">78.4%</text>
+  <rect x="930.5" y="200.5" width="300" height="79" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="954" y="230" font-size="12.5" fill="#686c73">Month 6 retention</text>
+  <text x="954" y="262" font-size="24" font-weight="650" fill="#111213" letter-spacing="-0.4">69.1%</text>
+  <rect x="1260.5" y="200.5" width="299" height="79" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="1284" y="230" font-size="12.5" fill="#686c73">Accounts in view</text>
+  <text x="1284" y="262" font-size="24" font-weight="650" fill="#111213" letter-spacing="-0.4">412</text>
+
+  <!-- Heatmap card -->
+  <rect x="600.5" y="300.5" width="959" height="671" rx="12" fill="#ffffff" stroke="#e4e4de"/>
+  <text x="624" y="338" font-size="16" font-weight="650" fill="#111213">Cohort retention</text>
+  <text x="624" y="358" font-size="12.5" fill="#686c73">Share of accounts still active, by signup month</text>
+
+  <g font-size="11.5" font-weight="600" fill="#686c73" letter-spacing="0.4">
+    <text x="624" y="398">COHORT</text>
+    <text x="724" y="398">ACCTS</text>
+  </g>
+  <g font-size="12" fill="#686c73" text-anchor="middle">
+    <text x="843" y="398">Month 0</text>
+    <text x="935" y="398">Month 1</text>
+    <text x="1027" y="398">Month 2</text>
+    <text x="1119" y="398">Month 3</text>
+    <text x="1211" y="398">Month 4</text>
+    <text x="1303" y="398">Month 5</text>
+    <text x="1395" y="398">Month 6</text>
+    <text x="1487" y="398">Month 7</text>
+  </g>
+  <text x="624" y="444" font-size="13.5" font-weight="600" fill="#111213">Jan</text>
+  <text x="724" y="444" font-size="13" fill="#686c73">64</text>
+  <rect x="800" y="412" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="1.0"/>
+  <text x="843" y="443.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">100%</text>
+  <rect x="892" y="412" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.8"/>
+  <text x="935" y="443.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">91%</text>
+  <rect x="984" y="412" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.6"/>
+  <text x="1027" y="443.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">82%</text>
+  <rect x="1076" y="412" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.58"/>
+  <text x="1119" y="443.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">81%</text>
+  <rect x="1168" y="412" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.41"/>
+  <text x="1211" y="443.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">73%</text>
+  <rect x="1260" y="412" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.38"/>
+  <text x="1303" y="443.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">72%</text>
+  <rect x="1352" y="412" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.36"/>
+  <text x="1395" y="443.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">71%</text>
+  <rect x="1444" y="412" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.3"/>
+  <text x="1487" y="443.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">68%</text>
+  <text x="624" y="506" font-size="13.5" font-weight="600" fill="#111213">Feb</text>
+  <text x="724" y="506" font-size="13" fill="#686c73">58</text>
+  <rect x="800" y="474" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="1.0"/>
+  <text x="843" y="505.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">100%</text>
+  <rect x="892" y="474" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.71"/>
+  <text x="935" y="505.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">87%</text>
+  <rect x="984" y="474" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.67"/>
+  <text x="1027" y="505.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">85%</text>
+  <rect x="1076" y="474" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.47"/>
+  <text x="1119" y="505.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">76%</text>
+  <rect x="1168" y="474" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.45"/>
+  <text x="1211" y="505.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">75%</text>
+  <rect x="1260" y="474" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.43"/>
+  <text x="1303" y="505.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">74%</text>
+  <rect x="1352" y="474" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.32"/>
+  <text x="1395" y="505.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">69%</text>
+  <rect x="1444.5" y="474.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <text x="624" y="568" font-size="13.5" font-weight="600" fill="#111213">Mar</text>
+  <text x="724" y="568" font-size="13" fill="#686c73">71</text>
+  <rect x="800" y="536" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="1.0"/>
+  <text x="843" y="567.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">100%</text>
+  <rect x="892" y="536" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.78"/>
+  <text x="935" y="567.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">90%</text>
+  <rect x="984" y="536" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.54"/>
+  <text x="1027" y="567.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">79%</text>
+  <rect x="1076" y="536" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.52"/>
+  <text x="1119" y="567.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">78%</text>
+  <rect x="1168" y="536" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.49"/>
+  <text x="1211" y="567.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">77%</text>
+  <rect x="1260" y="536" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.34"/>
+  <text x="1303" y="567.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">70%</text>
+  <rect x="1352.5" y="536.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1444.5" y="536.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <text x="624" y="630" font-size="13.5" font-weight="600" fill="#111213">Apr</text>
+  <text x="724" y="630" font-size="13" fill="#686c73">49</text>
+  <rect x="800" y="598" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="1.0"/>
+  <text x="843" y="629.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">100%</text>
+  <rect x="892" y="598" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.71"/>
+  <text x="935" y="629.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">87%</text>
+  <rect x="984" y="598" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.65"/>
+  <text x="1027" y="629.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">84%</text>
+  <rect x="1076" y="598" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.63"/>
+  <text x="1119" y="629.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">83%</text>
+  <rect x="1168" y="598" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.45"/>
+  <text x="1211" y="629.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">75%</text>
+  <rect x="1260.5" y="598.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1352.5" y="598.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1444.5" y="598.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <text x="624" y="692" font-size="13.5" font-weight="600" fill="#111213">May</text>
+  <text x="724" y="692" font-size="13" fill="#686c73">55</text>
+  <rect x="800" y="660" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="1.0"/>
+  <text x="843" y="691.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">100%</text>
+  <rect x="892" y="660" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.76"/>
+  <text x="935" y="691.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">89%</text>
+  <rect x="984" y="660" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.69"/>
+  <text x="1027" y="691.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">86%</text>
+  <rect x="1076" y="660" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.52"/>
+  <text x="1119" y="691.5" font-size="13" font-weight="600" fill="#111213" text-anchor="middle">78%</text>
+  <rect x="1168.5" y="660.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1260.5" y="660.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1352.5" y="660.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1444.5" y="660.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <text x="624" y="754" font-size="13.5" font-weight="600" fill="#111213">Jun</text>
+  <text x="724" y="754" font-size="13" fill="#686c73">47</text>
+  <rect x="800" y="722" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="1.0"/>
+  <text x="843" y="753.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">100%</text>
+  <rect x="892" y="722" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.8"/>
+  <text x="935" y="753.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">91%</text>
+  <rect x="984" y="722" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.58"/>
+  <text x="1027" y="753.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">81%</text>
+  <rect x="1076.5" y="722.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1168.5" y="722.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1260.5" y="722.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1352.5" y="722.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1444.5" y="722.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <text x="624" y="816" font-size="13.5" font-weight="600" fill="#111213">Jul</text>
+  <text x="724" y="816" font-size="13" fill="#686c73">38</text>
+  <rect x="800" y="784" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="1.0"/>
+  <text x="843" y="815.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">100%</text>
+  <rect x="892" y="784" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="0.76"/>
+  <text x="935" y="815.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">89%</text>
+  <rect x="984.5" y="784.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1076.5" y="784.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1168.5" y="784.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1260.5" y="784.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1352.5" y="784.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1444.5" y="784.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <text x="624" y="878" font-size="13.5" font-weight="600" fill="#111213">Aug</text>
+  <text x="724" y="878" font-size="13" fill="#686c73">30</text>
+  <rect x="800" y="846" width="86" height="54" rx="6" fill="#6d4aff" fill-opacity="1.0"/>
+  <text x="843" y="877.5" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">100%</text>
+  <rect x="892.5" y="846.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="984.5" y="846.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1076.5" y="846.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1168.5" y="846.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1260.5" y="846.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1352.5" y="846.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <rect x="1444.5" y="846.5" width="85" height="53" rx="6" fill="#fafaf8" stroke="#f2f2ee"/>
+  <text x="624" y="942" font-size="12" fill="#686c73">Updated 2h ago · EU · Growth plan</text>
+  <text x="1252" y="942" font-size="12" fill="#686c73" text-anchor="end">60%</text>
+  <rect x="1262" y="930" width="36" height="16" rx="4" fill="#6d4aff" fill-opacity="0.12"/>
+  <rect x="1302" y="930" width="36" height="16" rx="4" fill="#6d4aff" fill-opacity="0.3"/>
+  <rect x="1342" y="930" width="36" height="16" rx="4" fill="#6d4aff" fill-opacity="0.5"/>
+  <rect x="1382" y="930" width="36" height="16" rx="4" fill="#6d4aff" fill-opacity="0.7"/>
+  <rect x="1422" y="930" width="36" height="16" rx="4" fill="#6d4aff" fill-opacity="0.85"/>
+  <rect x="1462" y="930" width="36" height="16" rx="4" fill="#6d4aff" fill-opacity="1.0"/>
+  <text x="1508" y="942" font-size="12" fill="#686c73">100%</text>
+</svg>
